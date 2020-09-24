@@ -1,11 +1,14 @@
 /*
  * @lc app=leetcode.cn id=203 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-09-24
+ *
  * [203] 移除链表元素
  *
  * https://leetcode-cn.com/problems/remove-linked-list-elements/description/
  *
- * Testcase Example:  '[1,2,6,3,4,5,6]\n6'
+ * @tags 'Linked List'
  *
  * 删除链表中等于给定值 val 的所有节点。
  *
@@ -32,20 +35,17 @@
  * @return {ListNode}
  */
 var removeElements = function (head, val) {
-  let virtualHead = new ListNode(null);
+  const virtualHead = new ListNode(null);
   virtualHead.next = head;
 
   let prev = virtualHead;
-  let curr = head;
 
-  while (curr !== null) {
-    if (curr.val === val) {
-      prev.next = curr.next;
+  while (prev.next !== null) {
+    if (prev.next.val === val) {
+      prev.next = prev.next.next;
     } else {
-      prev = curr;
+      prev = prev.next;
     }
-
-    curr = curr.next;
   }
 
   return virtualHead.next;
