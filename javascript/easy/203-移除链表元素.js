@@ -50,4 +50,13 @@ var removeElements = function (head, val) {
 
   return virtualHead.next;
 };
+
+// 递归实现
+// var removeElements = function (head, val) {
+//   if (head === null) return null;
+
+//   head.next = removeElements(head.next, val);
+//   return head.val === val ? head.next : head;
+// };
+
 // @lc code=end
