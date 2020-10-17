@@ -41,8 +41,25 @@
  * @return {number[]}
  */
 var sortedSquares = function (A) {
-  
+  const len = A.length;
+  const result = [];
+
+  let i = 0;
+  let j = len - 1;
+
+  for (let pos = len - 1; pos >= 0; pos--) {
+    if (Math.abs(A[i]) > Math.abs(A[j])) {
+      result[pos] = A[i] * A[i];
+      i++;
+    } else {
+      result[pos] = A[j] * A[j];
+      j--;
+    }
+  }
+
+  return result;
 };
+// @lc code=end
 
 /**
  * 下面是二分搜索树的解法（纯属练习，性能不好）
@@ -127,4 +144,3 @@ var sortedSquares = function (A) {
 
 //   return bst.midOrder();
 // };
-// @lc code=end
