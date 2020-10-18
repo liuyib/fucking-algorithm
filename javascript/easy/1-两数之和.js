@@ -29,16 +29,19 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-  const map = {};
+  const cache = {};
 
   for (let i = 0; i < nums.length; i++) {
     const one = nums[i];
     const two = target - one;
 
-    if (map[two] !== undefined) {
-      return [map[two], i];
+    if (cache[two] !== undefined) {
+      return [cache[two], i];
     }
-    map[one] = i;
+
+    cache[one] = i;
   }
+
+  return [];
 };
 // @lc code=end

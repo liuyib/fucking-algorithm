@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode.cn id=977 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-10-17
+ *
  * [977] 有序数组的平方
  *
  * https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/

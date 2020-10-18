@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode.cn id=228 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-10-17
+ *
  * [228] 汇总区间
  *
  * https://leetcode-cn.com/problems/summary-ranges/description/
