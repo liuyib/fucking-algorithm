@@ -1,0 +1,100 @@
+/*
+ * @lc app=leetcode.cn id=237 lang=javascript
+ *
+ * [237] 删除链表中的节点
+ *
+ * https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/
+ *
+ * @tags 'Linked List'
+ *
+ * 请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点。传入函数的唯一参数为 要被删除的节点 。
+ *
+ * 现有一个链表 -- head = [4,5,1,9]，它可以表示为:
+ *
+ * head
+ *  ↓
+ *  4 -> 5 -> 1 -> 9
+ *
+ * 示例 1：
+ *
+ * 输入：head = [4,5,1,9], node = 5
+ * 输出：[4,1,9]
+ * 解释：给定你链表中值为 5 的第二个节点，那么在调用了你的函数之后，该链表应变为 4 -> 1 -> 9.
+ *
+ * 示例 2：
+ *
+ * 输入：head = [4,5,1,9], node = 1
+ * 输出：[4,5,9]
+ * 解释：给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9.
+ *
+ * 提示：
+ *
+ * 链表至少包含两个节点。
+ * 链表中所有节点的值都是唯一的。
+ * 给定的节点为非末尾节点并且一定是链表中的一个有效节点。
+ * 不要从你的函数中返回任何结果。
+ */
+
+// @lc code=start
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *   this.val = val;
+ *   this.next = null;
+ * }
+ */
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
+/**
+ * @param {ListNode} node
+ * @return {void} Do not return anything, modify node in-place instead.
+ */
+var deleteNode = function (node) {
+  while (node) {
+    if (node.next) {
+      node.val = node.next.val;
+
+      if (!node.next.next) {
+        node.next = null;
+      }
+    }
+    node = node.next;
+  }
+};
+
+// 测试，先用数组构建出链表
+const inputs = ["a", "b", "c", "d", "e", "f"];
+let head = null;
+let curr = null;
+let find = null;
+
+inputs.forEach((input) => {
+  const newNode = new ListNode(input);
+  if (head === null) {
+    curr = find = head = newNode;
+  } else {
+    curr.next = newNode;
+    curr = curr.next;
+  }
+});
+
+while (find) {
+  if (find.val !== "c") {
+    find = find.next;
+  } else {
+    break;
+  }
+}
+
+deleteNode(find);
+
+// 输出结果
+let result = "";
+while (head !== null) {
+  result += `${head.val}${head.next === null ? "" : "->"}`;
+  head = head.next;
+}
+console.log(result);
+// @lc code=end
