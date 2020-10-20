@@ -10,6 +10,7 @@
 
 |#|题目|难度|解答|标签|
 |:---:|:---|:---:|:---:|:---:|
+|1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|⭐|[JavaScript](./javascript/easy/1290-二进制链表转整数.js)|`Linked List`|
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|⭐|[JavaScript](./javascript/easy/977-有序数组的平方.js)|`Array`|
 |696|[计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|⭐|[JavaScript](./javascript/easy/696-计数二进制子串.js)|`String`|
 |695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`Depth First Search`|
