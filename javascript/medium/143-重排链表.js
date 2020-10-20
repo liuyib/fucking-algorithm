@@ -33,10 +33,6 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
-}
 /**
  * @param {ListNode} head
  * @return {void} Do not return anything, modify head in-place instead.
@@ -67,30 +63,4 @@ var reorderList = function (head) {
 
   order(head);
 };
-
-// 测试，先用数组构建出链表
-const inputs = [1, 2, 3, 4, 5];
-let head = null;
-let curr = null;
-
-inputs.forEach((input) => {
-  const newNode = new ListNode(input);
-  if (head === null) {
-    curr = head = newNode;
-  } else {
-    curr.next = newNode;
-    curr = curr.next;
-  }
-});
-
-// 重新排序
-reorderList(head);
-
-// 输出结果
-let result = "";
-while (head !== null) {
-  result += `${head.val}${head.next === null ? "" : "->"}`;
-  head = head.next;
-}
-console.log(result);
 // @lc code=end
