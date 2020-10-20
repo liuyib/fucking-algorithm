@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode.cn id=143 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-10-20
+ *
  * [143] 重排链表
  *
  * https://leetcode-cn.com/problems/reorder-list/description/
