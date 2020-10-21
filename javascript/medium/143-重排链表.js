@@ -4,7 +4,7 @@
  * 作者：liuyib <https://github.com/liuyib>
  * 日期：2020-10-20
  *
- * [143] 重排链表 '自己一遍过'
+ * [143] 重排链表 '自己一遍过' '优化思路，看的题解：链表转数组后，用双指针'
  *
  * https://leetcode-cn.com/problems/reorder-list/description/
  *
@@ -33,33 +33,63 @@
  * }
  */
 /**
+ * 题解思路：链表转数组后，用双指针，时间复杂度 O(n)
  * @param {ListNode} head
  * @return {void} Do not return anything, modify head in-place instead.
  */
 var reorderList = function (head) {
-  const order = function (head) {
-    if (!head) return [];
+  if (!head) return null;
 
-    let _head = head;
-    let _curr = head;
+  const arr = [];
+  while (head) {
+    arr.push(head);
+    head = head.next;
+  }
 
-    // 找到倒数第二个
-    while (_curr.next && _curr.next.next) {
-      _curr = _curr.next;
+  let m = 0;
+  let n = arr.length - 1;
+
+  while (m < n) {
+    arr[m].next = arr[n];
+    m += 1;
+
+    if (m === n) {
+      break;
     }
 
-    if (_curr.next) {
-      const tail = new ListNode(_curr.next.val);
-      _curr.next = null;
-      tail.next = _head.next;
-      _head.next = tail;
+    arr[n].next = arr[m];
+    n -= 1;
+  }
 
-      if (_head.next && _head.next.next) {
-        order(_head.next.next);
-      }
-    }
-  };
-
-  order(head);
+  // 重排后的最后一个元素，直接指向 null
+  arr[m].next = null;
 };
+
+// 递归思路（自己的思路，性能不好）
+// var reorderList = function (head) {
+//   const order = function (head) {
+//     if (!head) return [];
+
+//     let _head = head;
+//     let _curr = head;
+
+//     // 找到倒数第二个
+//     while (_curr.next && _curr.next.next) {
+//       _curr = _curr.next;
+//     }
+
+//     if (_curr.next) {
+//       const tail = new ListNode(_curr.next.val);
+//       _curr.next = null;
+//       tail.next = _head.next;
+//       _head.next = tail;
+
+//       if (_head.next && _head.next.next) {
+//         order(_head.next.next);
+//       }
+//     }
+//   };
+
+//   order(head);
+// };
 // @lc code=end
