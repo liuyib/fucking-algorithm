@@ -4,7 +4,7 @@
  * 作者：liuyib <https://github.com/liuyib>
  * 日期：2020-10-20
  *
- * [143] 重排链表
+ * [143] 重排链表 '自己一遍过'
  *
  * https://leetcode-cn.com/problems/reorder-list/description/
  *

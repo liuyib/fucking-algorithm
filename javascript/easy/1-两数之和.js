@@ -8,7 +8,7 @@
  *
  * https://leetcode-cn.com/problems/two-sum/description/
  *
- * @tags 'Hash Table'
+ * @tags 'Hash Table' '看的题解' '利用 Hash Table 实现 O(n) 复杂度，是一种常用的思路'
  *
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  *

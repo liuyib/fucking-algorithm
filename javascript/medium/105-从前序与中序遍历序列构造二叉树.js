@@ -8,7 +8,7 @@
  *
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
  *
- * @tags 'Array' 'Binary Tree'
+ * @tags 'Array' 'Binary Tree' '自己实现了一种思路，优化是看的题解'
  *
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
  *
