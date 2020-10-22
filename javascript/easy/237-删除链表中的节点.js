@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode.cn id=237 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-10-20
+ *
  * [237] 删除链表中的节点
  *
  * https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/

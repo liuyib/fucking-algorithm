@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode.cn id=138 lang=javascript
  *
+ * 作者：liuyib <https://github.com/liuyib>
+ * 日期：2020-10-21
+ *
  * [138] 复制带随机指针的链表
  *
  * https://leetcode-cn.com/problems/root-list-with-random-pointer/description/
