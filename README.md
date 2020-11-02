@@ -21,6 +21,7 @@
 |109|[有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)|⭐⭐|[JavaScript](./javascript/medium/109-有序链表转换二叉搜索树.js)|`Linked List`, `Binary Search Tree`|
 |105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`, `Binary Tree`|
 |79|[单词搜索](https://leetcode-cn.com/problems/word-search/)|⭐⭐|[JavaScript](./javascript/medium/79-单词搜索.js)|`Backtracking`|
+|66|[加一](https://leetcode-cn.com/problems/plus-one/)|⭐|[JavaScript](../javascript/easy/66-加一.js)|`Array`|
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|⭐⭐|[JavaScript](./javascript/medium/22-括号生成.js)|`Backtracking`|
 |17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|⭐⭐|[JavaScript](./javascript/medium/17-电话号码的字母组合.js)|`Backtracking`|
 |1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|⭐⭐|[JavaScript](./javascript/easy/1-两数之和.js)|`Hash Table`|
