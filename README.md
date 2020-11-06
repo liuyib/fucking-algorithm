@@ -12,9 +12,11 @@
 |:---:|:---|:---:|:---:|:---:|:---:|
 |1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|⭐|[JavaScript](./javascript/easy/1290-二进制链表转整数.js)|`Linked List`||
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|⭐|[JavaScript](./javascript/easy/977-有序数组的平方.js)|`Array`||
+|941|[有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|⭐|[JavaScript](./javascript/easy/941-有效的山脉数组.js)|`Array`, `Double Pointer`||
 |821|[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|⭐|[JavaScript](./javascript/easy/821-字符的最短距离.js)|`String`||
 |696|[计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|⭐|[JavaScript](./javascript/easy/696-计数二进制子串.js)|`String`||
-|695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`Depth First Search`||
+|695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`DFS`||
+|394|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|⭐⭐|[JavaScript](./javascript/medium/394-字符串解码.js)|`Stack`, `DFS`||
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|⭐|[JavaScript](./javascript/easy/237-删除链表中的节点.js)|`Linked List`||
 |228|[汇总区间](https://leetcode-cn.com/problems/summary-ranges/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`||
 |203|[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|⭐|[JavaScript](./javascript/easy/203-移除链表元素.js)|`Linked List`||
