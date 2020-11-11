@@ -29,5 +29,6 @@
 |67|[二进制求和](https://leetcode-cn.com/problems/add-binary/)|⭐|[JavaScript](./javascript/easy/67-二进制求和.js)|`String`|[`T#66`](./javascript/easy/66-加一.js)|
 |66|[加一](https://leetcode-cn.com/problems/plus-one/)|⭐|[JavaScript](./javascript/easy/66-加一.js)|`Array`|[`T#67`](./javascript/easy/67-二进制求和.js)|
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|⭐⭐|[JavaScript](./javascript/medium/22-括号生成.js)|`Backtracking`||
+|20|[有效括号](https://leetcode-cn.com/problems/valid-parentheses/)|⭐|[JavaScript](./javascript/easy/20-有效的括号.js)|`Stack`||
 |17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|⭐⭐|[JavaScript](./javascript/medium/17-电话号码的字母组合.js)|`Backtracking`||
 |1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|⭐⭐|[JavaScript](./javascript/easy/1-两数之和.js)|`Hash Table`||
