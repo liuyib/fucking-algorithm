@@ -15,7 +15,8 @@
 |941|[有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|⭐|[JavaScript](./javascript/easy/941-有效的山脉数组.js)|`Array`, `Double Pointer`||
 |859|[亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)|⭐|[JavaScript](./javascript/easy/859-亲密字符串.js)|`String`||
 |821|[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|⭐|[JavaScript](./javascript/easy/821-字符的最短距离.js)|`String`||
-|769|[最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|⭐⭐|[JavaScript](./javascript/medium/769-最多能完成排序的块.js)|`Stack`, `单调栈`||
+|769|[最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|⭐⭐|[JavaScript](./javascript/medium/769-最多能完成排序的块.js)|`Stack`, `单调栈`|[`T#768`](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)|
+|768|[最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)|⭐⭐⭐|[JavaScript](./javascript/hard/768-最多能完成排序的块-ii.js)|`Stack`, `单调栈`|[`T#769`](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|
 |696|[计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|⭐|[JavaScript](./javascript/easy/696-计数二进制子串.js)|`String`||
 |695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`DFS`||
 |560|[和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|⭐⭐|[JavaScript](./javascript/medium/560-和为k的子数组.js)|`Array`, `Hash Table`, `前缀和`||
