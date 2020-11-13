@@ -30,10 +30,29 @@
  *     this.next = null;
  * }
  */
+
 /**
- * 方法 2：递归（看的题解。有点绕，不太好想）
+ * 方法 1：双指针（看的题解。当时不太会双指针如何用在链表中）
  * @param {ListNode} head
  * @return {ListNode}
+ */
+var reverseList = function (head) {
+  let prev = null;
+  let curr = head;
+  let next = null;
+
+  while (curr) {
+    next = curr.next;
+    curr.next = prev;
+    prev = curr;
+    curr = next;
+  }
+
+  return prev;
+};
+
+/**
+ * 方法 2：递归（看的题解。有点绕，不太好想）
  */
 var reverseList = function (head) {
   if (!head || !head.next) {
@@ -46,19 +65,4 @@ var reverseList = function (head) {
 
   return ret;
 };
-
-// 方法 1：双指针（看的题解。当时不太会双指针如何用在链表中）
-// var reverseList = function (head) {
-//   let curr = null;
-//   let prev = head;
-
-//   while (prev) {
-//     const next = prev.next;
-//     prev.next = curr;
-//     curr = prev;
-//     prev = next;
-//   }
-
-//   return curr;
-// };
 // @lc code=end

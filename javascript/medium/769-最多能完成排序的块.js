@@ -95,7 +95,7 @@ console.log(maxChunksToSorted([1, 0, 2, 3, 4]), 4);
 console.log(maxChunksToSorted([0, 2, 1]), 2);
 
 /**
- * 暴力解法，并不暴力
+ * 题解思路：暴力解法（并不暴力）
  * 这一题直接暴力遍历，听起来是笨方法，其实是最优解。
  */
 var maxChunksToSorted = function (arr) {

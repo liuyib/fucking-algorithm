@@ -37,6 +37,43 @@
  */
 
 // @lc code=start
+/**
+ * 题解思路 1：
+ * 用栈来保存子问题的状态
+ * 1. 迭代保存数字，表示倍数
+ * 2. 遇到 [ 证明是子问题，将 "倍数" 和 "当前的子串" 作为子状态入栈
+ * 3. 遇到 ] 证明子问题结束，将 "当前子串" 复制 "上个状态的倍数" 次，并与 "上个状态的子串" 相加，此时一个子问题处理完成
+ * 4. 除了上述条件外，遇到的只可能是字母，直接相加到当前子串后
+ * @param {string} s
+ * @return {string}
+ */
+var decodeString = function (s) {
+  const stack = [];
+
+  function isDigit(val) {
+    return val >= "0" && val <= "9";
+  }
+
+  let multi = 0;
+  let res = "";
+
+  for (let i = 0; i < s.length; i++) {
+    if (isDigit(s[i])) {
+      multi = multi * 10 + parseInt(s[i]);
+    } else if (s[i] === "[") {
+      stack.push({ multi: parseInt(multi), res });
+      multi = 0;
+      res = "";
+    } else if (s[i] === "]") {
+      const top = stack.pop();
+      res = top.res + res.repeat(top.multi);
+    } else {
+      res += s[i];
+    }
+  }
+
+  return res;
+};
 
 /**
  * 题解思路 2：
@@ -72,88 +109,50 @@ var decodeString = function (s) {
   return dfs(s, 0);
 };
 
-// /**
-//  * 题解思路 1：
-//  * 用栈来保存子问题的状态
-//  * 1. 迭代保存数字，表示倍数
-//  * 2. 遇到 [ 证明是子问题，将 "倍数" 和 "当前的子串" 作为子状态入栈
-//  * 3. 遇到 ] 证明子问题结束，将 "当前子串" 复制 "上个状态的倍数" 次，并与 "上个状态的子串" 相加，此时一个子问题处理完成
-//  * 4. 除了上述条件外，遇到的只可能是字母，直接相加到当前子串后
-//  */
-// var decodeString = function (s) {
-//   const stack = [];
+/**
+ * 自己的思路：
+ * 用 i 记录最后遇到的 [ 的位置，用 j 记录第一次遇到的 ] 的位置，然后第一次遇到 ] 时，
+ * 就可以通过两个指针获取到括号中的字符串和括号前面的数字，相乘得到一个结果，然后替换主串中处理过的部分
+ */
+var decodeString = function (s) {
+  let l = 0;
+  let r = 0;
 
-//   function isDigit(val) {
-//     return val >= "0" && val <= "9";
-//   }
+  for (let i = 0; i < s.length; i++) {
+    let temp = "";
 
-//   let multi = 0;
-//   let res = "";
+    if (s[i] === "[") {
+      l = i;
+    }
+    if (s[i] === "]") {
+      r = i;
 
-//   for (let i = 0; i < s.length; i++) {
-//     if (isDigit(s[i])) {
-//       multi = multi * 10 + parseInt(s[i]);
-//     } else if (s[i] === "[") {
-//       stack.push({ multi: parseInt(multi), res });
-//       multi = 0;
-//       res = "";
-//     } else if (s[i] === "]") {
-//       const top = stack.pop();
-//       res = top.res + res.repeat(top.multi);
-//     } else {
-//       res += s[i];
-//     }
-//   }
+      let find = l - 1;
+      let num = "";
 
-//   return res;
-// };
+      while (/[0-9]/.test(s[find])) {
+        num = s[find] + num;
+        find -= 1;
+      }
 
-// /**
-//  * 自己的思路：
-//  * 用 i 记录最后遇到的 [ 的位置，用 j 记录第一次遇到的 ] 的位置，然后第一次遇到 ] 时，
-//  * 就可以通过两个指针获取到括号中的字符串和括号前面的数字，相乘得到一个结果，然后替换主串中处理过的部分
-//  * @param {string} s
-//  * @return {string}
-//  */
-// var decodeString = function (s) {
-//   let l = 0;
-//   let r = 0;
+      num = parseInt(num);
 
-//   for (let i = 0; i < s.length; i++) {
-//     let temp = "";
+      let sub = s.substring(l + 1, r);
 
-//     if (s[i] === "[") {
-//       l = i;
-//     }
-//     if (s[i] === "]") {
-//       r = i;
+      while (num > 0) {
+        temp += sub;
+        num -= 1;
+      }
 
-//       let find = l - 1;
-//       let num = "";
+      s = s.substring(0, find + 1) + temp + s.substring(r + 1);
+      s = decodeString(s);
 
-//       while (/[0-9]/.test(s[find])) {
-//         num = s[find] + num;
-//         find -= 1;
-//       }
+      break;
+    }
+  }
 
-//       num = parseInt(num);
-
-//       let sub = s.substring(l + 1, r);
-
-//       while (num > 0) {
-//         temp += sub;
-//         num -= 1;
-//       }
-
-//       s = s.substring(0, find + 1) + temp + s.substring(r + 1);
-//       s = decodeString(s);
-
-//       break;
-//     }
-//   }
-
-//   return s;
-// };
+  return s;
+};
 
 // console.log(`decodeString("3[a]2[bc]")`, decodeString("3[a]2[bc]"));
 // console.log(`decodeString("3[a2[c]]")`, decodeString("3[a2[c]]"));

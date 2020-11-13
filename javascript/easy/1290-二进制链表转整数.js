@@ -81,7 +81,7 @@ var getDecimalValue = function (head) {
 };
 
 // 递归方法
-// var getDecimalValue = function (head, sum = 0) {
-//   return !head ? sum : getDecimalValue(head.next, sum * 2 + head.val);
-// };
+var getDecimalValue = function (head, sum = 0) {
+  return !head ? sum : getDecimalValue(head.next, sum * 2 + head.val);
+};
 // @lc code=end

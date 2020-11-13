@@ -37,6 +37,8 @@
 
 // @lc code=start
 /**
+ * 自己的思路：单调栈
+ * （完成同类题目“最多能完成排序的块”后自己做出）
  * @param {number[]} arr
  * @return {number}
  */

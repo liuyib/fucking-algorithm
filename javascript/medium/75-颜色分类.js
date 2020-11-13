@@ -67,23 +67,25 @@ var sortColors = function (nums) {
   }
 };
 
-// 计数排序（先计数，然后按数量生成排序后的数组）
-// var sortColors = function (nums) {
-//   const cache = {};
+/**
+ * 计数排序（先计数，然后按数量生成排序后的数组）
+ */
+var sortColors = function (nums) {
+  const cache = {};
 
-//   for (let i = 0; i < nums.length; i++) {
-//     const color = nums[i];
-//     cache[color] = (cache[color] || 0) + 1;
-//   }
+  for (let i = 0; i < nums.length; i++) {
+    const color = nums[i];
+    cache[color] = (cache[color] || 0) + 1;
+  }
 
-//   nums.length = 0;
-//   const colors = [0, 1, 2];
+  nums.length = 0;
+  const colors = [0, 1, 2];
 
-//   for (let i = 0; i < colors.length; i++) {
-//     const color = colors[i];
-//     for (let j = 0; j < cache[color]; j++) {
-//       nums.push(color);
-//     }
-//   }
-// };
+  for (let i = 0; i < colors.length; i++) {
+    const color = colors[i];
+    for (let j = 0; j < cache[color]; j++) {
+      nums.push(color);
+    }
+  }
+};
 // @lc code=end

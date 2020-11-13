@@ -65,31 +65,33 @@ var reorderList = function (head) {
   arr[m].next = null;
 };
 
-// 递归思路（自己的思路，性能不好）
-// var reorderList = function (head) {
-//   const order = function (head) {
-//     if (!head) return [];
+/**
+ * 自己的思路：递归（性能不好）
+ */
+var reorderList = function (head) {
+  const order = function (head) {
+    if (!head) return [];
 
-//     let _head = head;
-//     let _curr = head;
+    let _head = head;
+    let _curr = head;
 
-//     // 找到倒数第二个
-//     while (_curr.next && _curr.next.next) {
-//       _curr = _curr.next;
-//     }
+    // 找到倒数第二个
+    while (_curr.next && _curr.next.next) {
+      _curr = _curr.next;
+    }
 
-//     if (_curr.next) {
-//       const tail = new ListNode(_curr.next.val);
-//       _curr.next = null;
-//       tail.next = _head.next;
-//       _head.next = tail;
+    if (_curr.next) {
+      const tail = new ListNode(_curr.next.val);
+      _curr.next = null;
+      tail.next = _head.next;
+      _head.next = tail;
 
-//       if (_head.next && _head.next.next) {
-//         order(_head.next.next);
-//       }
-//     }
-//   };
+      if (_head.next && _head.next.next) {
+        order(_head.next.next);
+      }
+    }
+  };
 
-//   order(head);
-// };
+  order(head);
+};
 // @lc code=end

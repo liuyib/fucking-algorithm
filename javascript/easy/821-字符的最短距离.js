@@ -23,16 +23,12 @@
 
 // @lc code=start
 /**
- * @param {string} S
- * @param {character} C
- * @return {number[]}
- */
-var shortestToChar = function (S, C) {};
-
-/**
  * 二分思路：
  * 1. 用数组 indexs 存 C 在 S 中的索引。
  * 2. 对于 S 中的每个字符，在 indexs 中二分查找距离当前位置最近的下标，记录到结果数组中。
+ * @param {string} S
+ * @param {character} C
+ * @return {number[]}
  */
 var shortestToChar = function (S, C) {
   const indexs = [];
