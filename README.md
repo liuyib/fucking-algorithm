@@ -31,6 +31,7 @@
 |75|[颜色分类](https://leetcode-cn.com/problems/sort-colors/)|⭐⭐|[JavaScript](./javascript/medium/75-颜色分类.js)|`Array`, `Double Pointer`||
 |67|[二进制求和](https://leetcode-cn.com/problems/add-binary/)|⭐|[JavaScript](./javascript/easy/67-二进制求和.js)|`String`|[`T#66`](./javascript/easy/66-加一.js)|
 |66|[加一](https://leetcode-cn.com/problems/plus-one/)|⭐|[JavaScript](./javascript/easy/66-加一.js)|`Array`|[`T#67`](./javascript/easy/67-二进制求和.js)|
+|61|[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|⭐⭐|[JavaScript](./javascript/medium/61-旋转链表.js)||
 |24|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|⭐⭐|[JavaScript](./javascript/medium/24-两两交换链表中的节点.js)|`Linked List`||
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|⭐⭐|[JavaScript](./javascript/medium/22-括号生成.js)|`Backtracking`||
 |20|[有效括号](https://leetcode-cn.com/problems/valid-parentheses/)|⭐|[JavaScript](./javascript/easy/20-有效的括号.js)|`Stack`||
