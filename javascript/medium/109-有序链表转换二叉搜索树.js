@@ -25,7 +25,6 @@
  * ⁠  -3   9
  * ⁠  /   /
  * ⁠-10  5
- *
  */
 
 // @lc code=start
@@ -45,39 +44,32 @@
  * }
  */
 /**
+ * 自己的思路：
+ * 先将链表转为数组，然后解法和 “[108] 将有序数组转换为二叉搜索树” 一样
  * @param {ListNode} head
  * @return {TreeNode}
  */
 var sortedListToBST = function (head) {
-  const arr = [];
+  const nodes = [];
 
-  // 转为数组
+  // 链表转化为数组
   while (head) {
-    arr.push(head.val);
+    nodes.push(head.val);
     head = head.next;
   }
 
-  // 思路：每次取数组中间的元素作为根节点，然后对左右的元素集合递归操作即可
-  function buildTree(arr) {
-    const len = arr.length;
-    const mid = Math.floor(len / 2);
+  const dfs = function (left, right) {
+    if (left > right) return null;
 
-    if (arr[mid] === undefined) {
-      return null;
-    }
+    const mid = Math.floor((left + right) / 2);
+    const root = new TreeNode(nodes[mid]);
 
-    const root = new TreeNode(arr[mid]);
-
-    if (mid === 0) {
-      return root;
-    }
-
-    root.left = buildTree(arr.slice(0, mid));
-    root.right = buildTree(arr.slice(mid + 1));
+    root.left = dfs(left, mid - 1);
+    root.right = dfs(mid + 1, right);
 
     return root;
-  }
+  };
 
-  return buildTree(arr);
+  return dfs(0, nodes.length - 1);
 };
 // @lc code=end
