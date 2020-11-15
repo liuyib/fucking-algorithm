@@ -32,37 +32,37 @@
 
 // @lc code=start
 // 第一版：直接递归，不过每次循环都要用 slice 对数组进行切割，性能不好
-// var buildTree = function (preorder, inorder) {
-//   if (preorder.length === 0 || inorder.length === 0) return null;
+var buildTree = function (preorder, inorder) {
+  if (preorder.length === 0 || inorder.length === 0) return null;
 
-//   const node = preorder[0];
-//   const root = new TreeNode(node);
-//   const pos = inorder.indexOf(node);
+  const node = preorder[0];
+  const root = new TreeNode(node);
+  const pos = inorder.indexOf(node);
 
-//   root.left = buildTree(preorder.slice(1, 1 + pos), inorder.slice(0, pos));
-//   root.right = buildTree(preorder.slice(1 + pos), inorder.slice(pos + 1));
+  root.left = buildTree(preorder.slice(1, 1 + pos), inorder.slice(0, pos));
+  root.right = buildTree(preorder.slice(1 + pos), inorder.slice(pos + 1));
 
-//   return root;
-// };
+  return root;
+};
 
 // 第二版：在第一版的基础上优化掉了 slice 操作，现在每次 indexOf 查找根节点浪费性能，还可以优化
-// var buildTree = function (preorder, inorder) {
-//   const find = function (pStart, pEnd, iStart, iEnd) {
-//     if (pStart > pEnd || iStart > iEnd) return null;
+var buildTree = function (preorder, inorder) {
+  const find = function (pStart, pEnd, iStart, iEnd) {
+    if (pStart > pEnd || iStart > iEnd) return null;
 
-//     const node = preorder[pStart];
-//     const root = new TreeNode(node);
-//     const pos = inorder.indexOf(node);
-//     const leftNum = pos - iStart;
+    const node = preorder[pStart];
+    const root = new TreeNode(node);
+    const pos = inorder.indexOf(node);
+    const leftNum = pos - iStart;
 
-//     root.left = find(pStart + 1, pStart + leftNum, iStart, pos - 1);
-//     root.right = find(pStart + 1 + leftNum, pEnd, pos + 1, iEnd);
+    root.left = find(pStart + 1, pStart + leftNum, iStart, pos - 1);
+    root.right = find(pStart + 1 + leftNum, pEnd, pos + 1, iEnd);
 
-//     return root;
-//   };
+    return root;
+  };
 
-//   return find(0, preorder.length - 1, 0, inorder.length - 1);
-// };
+  return find(0, preorder.length - 1, 0, inorder.length - 1);
+};
 
 /**
  * Definition for a binary tree node.
