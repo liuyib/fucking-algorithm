@@ -26,6 +26,7 @@
 |228|[汇总区间](https://leetcode-cn.com/problems/summary-ranges/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`||
 |203|[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|⭐|[JavaScript](./javascript/easy/203-移除链表元素.js)|`Linked List`||
 |160|[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|⭐|[JavaScript](./javascript/easy/160-相交链表.js)|`Linked List`||
+|146|[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)|⭐⭐|[JavaScript](./javascript/medium/146-lru缓存机制.js)|`设计`||
 |143|[重排链表](https://leetcode-cn.com/problems/reorder-list/)|⭐⭐|[JavaScript](./javascript/medium/143-重排链表.js)|`Linked List`||
 |142|[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|⭐⭐|[JavaScript](./javascript/medium/142-环形链表-ii.js)|`Linked List`, `Double Pointer`, `Hash Table`|[`T#141`](./javascript/easy/141-环形链表.js)|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|⭐|[JavaScript](./javascript/easy/141-环形链表.js)|`Linked List`, `Double Pointer`, `Hash Table`|[`T#142`](./javascript/medium/142-环形链表-ii.js)|
