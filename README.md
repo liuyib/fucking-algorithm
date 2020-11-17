@@ -44,6 +44,7 @@
 |61|[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|⭐⭐|[JavaScript](./javascript/medium/61-旋转链表.js)||
 |24|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|⭐⭐|[JavaScript](./javascript/medium/24-两两交换链表中的节点.js)|`Linked List`||
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|⭐⭐|[JavaScript](./javascript/medium/22-括号生成.js)|`Backtracking`||
+|21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|⭐|[JavaScript](./javascript/easy/21-合并两个有序链表.js)|`Linked List`, `Double Pointer`||
 |20|[有效括号](https://leetcode-cn.com/problems/valid-parentheses/)|⭐|[JavaScript](./javascript/easy/20-有效的括号.js)|`Stack`||
 |17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|⭐⭐|[JavaScript](./javascript/medium/17-电话号码的字母组合.js)|`Backtracking`||
 |1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|⭐⭐|[JavaScript](./javascript/easy/1-两数之和.js)|`Hash Table`||
