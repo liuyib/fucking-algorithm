@@ -21,6 +21,7 @@
 |695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`DFS`||
 |599|[两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)|⭐|[JavaScript](./javascript/easy/599-两个列表的最小索引总和.js)|`Array`, `Hash Table`||
 |560|[和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|⭐⭐|[JavaScript](./javascript/medium/560-和为k的子数组.js)|`Array`, `Hash Table`, `前缀和`||
+|513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|⭐⭐|[JavaScript](./javascript/medium/513-找树左下角的值.js)|`Binary Tree`, `DFS`, `BFS`||
 |394|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|⭐⭐|[JavaScript](./javascript/medium/394-字符串解码.js)|`Stack`, `DFS`||
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|⭐|[JavaScript](./javascript/easy/237-删除链表中的节点.js)|`Linked List`||
 |228|[汇总区间](https://leetcode-cn.com/problems/summary-ranges/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`||
