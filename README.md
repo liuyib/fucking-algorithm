@@ -33,6 +33,7 @@
 |109|[有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)|⭐⭐|[JavaScript](./javascript/medium/109-有序链表转换二叉搜索树.js)|`Linked List`, `BST`|[`T#108`](./javascript/easy/108-将有序数组转换为二叉搜索树.js)|
 |108|[将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)|⭐|[JavaScript](./javascript/easy/108-将有序数组转换为二叉搜索树.js)|`Array`, `BST`|[`T#109`](./javascript/medium/109-有序链表转换二叉搜索树.js)|
 |105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`, `Binary Tree`||
+|104|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|⭐|[JavaScript](./javascript/easy/104-二叉树的最大深度.js)|`Binary Tree`, `DFS`||
 |79|[单词搜索](https://leetcode-cn.com/problems/word-search/)|⭐⭐|[JavaScript](./javascript/medium/79-单词搜索.js)|`Backtracking`||
 |75|[颜色分类](https://leetcode-cn.com/problems/sort-colors/)|⭐⭐|[JavaScript](./javascript/medium/75-颜色分类.js)|`Array`, `Double Pointer`||
 |67|[二进制求和](https://leetcode-cn.com/problems/add-binary/)|⭐|[JavaScript](./javascript/easy/67-二进制求和.js)|`String`|[`T#66`](./javascript/easy/66-加一.js)|
