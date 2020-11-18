@@ -11,6 +11,7 @@
 |#|题目|难度|解答|标签|相似|
 |:---:|:---|:---:|:---:|:---:|:---:|
 |1290|[二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|⭐|[JavaScript](./javascript/easy/1290-二进制链表转整数.js)|`Linked List`||
+|987|[二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/)|⭐⭐|[JavaScript](./javascript/medium/987-二叉树的垂序遍历.js)|`Binary Tree`, `DFS`||
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|⭐|[JavaScript](./javascript/easy/977-有序数组的平方.js)|`Array`||
 |941|[有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|⭐|[JavaScript](./javascript/easy/941-有效的山脉数组.js)|`Array`, `Double Pointer`||
 |859|[亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)|⭐|[JavaScript](./javascript/easy/859-亲密字符串.js)|`String`||
