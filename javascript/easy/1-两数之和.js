@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=1 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-08-04
- *
  * [1] 两数之和
  *
  * https://leetcode-cn.com/problems/two-sum/description/
  *
- * @tags 'Hash Table' '看的题解' '利用 Hash Table 实现 O(n) 复杂度，是一种常用的思路'
+ * @tags 'Hash Table'
  *
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  *

@@ -5,7 +5,7 @@
  *
  * https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/
  *
- * @tags 'String'
+ * @tags 'String' 'Greedy'
  *
  * 给定一个字符串 S 和一个字符 C。返回一个代表字符串 S 中每个字符到字符串 S 中的字符 C 的最短距离的数组。
  *

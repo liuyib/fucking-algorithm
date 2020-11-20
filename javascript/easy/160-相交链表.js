@@ -5,7 +5,7 @@
  *
  * https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/
  *
- * @tags 'Linked List'
+ * @tags 'Linked List' 'Double Pointer'
  *
  * 编写一个程序，找到两个单链表相交的起始节点。
  *

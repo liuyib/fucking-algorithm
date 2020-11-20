@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=925 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-21
- *
  * [925] 长按键入
  *
  * https://leetcode-cn.com/problems/long-pressed-name/description/
  *
- * @tags 'Double Pointer'
+ * @tags 'String' 'Double Pointer'
  *
  * 你的朋友正在使用键盘输入他的名字 name。偶尔，在键入字符 c 时，按键可能会被长按，而字符可能被输入 1 次或多次。
  *

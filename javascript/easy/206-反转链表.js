@@ -1,15 +1,11 @@
 /*
  * @lc app=leetcode.cn id=206 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-22
- *
  * [206] 反转链表
  *
  * https://leetcode-cn.com/problems/reverse-linked-list/description/
  *
- * @tags 'Linked List'
- * @solutions 'Recursion' 'Double Pointer'
+ * @tags 'Linked List' 'Recursion' 'Double Pointer'
  *
  * 反转一个单链表。
  *

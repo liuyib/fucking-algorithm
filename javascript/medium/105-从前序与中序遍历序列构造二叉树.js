@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=105 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-17
- *
  * [105] 从前序与中序遍历序列构造二叉树
  *
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
  *
- * @tags 'Array' 'Binary Tree' '自己实现了一种思路，优化是看的题解'
+ * @tags 'Array' 'Binary Tree' 'Recursion'
  *
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
  *

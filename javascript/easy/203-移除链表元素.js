@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=203 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-09-24
- *
  * [203] 移除链表元素
  *
  * https://leetcode-cn.com/problems/remove-linked-list-elements/description/
  *
- * @tags 'Linked List' '慕课 Bobo 老师用的例题'
+ * @tags 'Linked List' 'Recursion'
  *
  * 删除链表中等于给定值 val 的所有节点。
  *

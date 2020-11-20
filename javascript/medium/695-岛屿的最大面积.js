@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=695 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-08-03
- *
- * [695] 岛屿的最大面积 '字节一面' '看的题解'
+ * [695] 岛屿的最大面积
  *
  * https://leetcode-cn.com/problems/max-area-of-island/description/
  *
- * @tags 'Backtracking'
+ * @tags 'DFS' 'Backtracking'
  *
  * 给定一个包含了一些 0 和 1 的非空二维数组 grid 。
  *

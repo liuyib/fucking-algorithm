@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=143 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-20
- *
- * [143] 重排链表 '自己一遍过' '优化思路，看的题解：链表转数组后，用双指针'
+ * [143] 重排链表
  *
  * https://leetcode-cn.com/problems/reorder-list/description/
  *
- * @tags 'Linked List'
+ * @tags 'Linked List' 'Double Pointer' 'Recursion'
  *
  * 给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
  * 将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…

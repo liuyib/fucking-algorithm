@@ -6,7 +6,6 @@
  * https://leetcode-cn.com/problems/add-binary/description/
  *
  * @tags 'String'
- * @similars 'T#66'
  *
  * 给你两个二进制字符串，返回它们的和（用二进制表示）。
  *

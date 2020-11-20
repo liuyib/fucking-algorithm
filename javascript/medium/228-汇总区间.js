@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=228 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-17
- *
  * [228] 汇总区间
  *
  * https://leetcode-cn.com/problems/summary-ranges/description/
  *
- * @tags 'Array' '双指针' '看的题解'
+ * @tags 'Array' 'Double Pointer'
  *
  * 给定一个无重复元素的有序整数数组 nums 。
  *

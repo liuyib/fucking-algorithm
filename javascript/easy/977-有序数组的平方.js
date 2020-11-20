@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=977 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-17
- *
  * [977] 有序数组的平方
  *
  * https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/
  *
- * @tags 'Array' '双指针' '看的题解'
+ * @tags 'Array' 'Double Pointer'
  *
  * 给定一个按非递减顺序排序的整数数组 A，返回每个数字的平方组成的新数组，要求也按非递减顺序排序。
  *

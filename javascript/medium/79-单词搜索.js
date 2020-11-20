@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=79 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-08-04
- *
  * [79] 单词搜索
  *
  * https://leetcode-cn.com/problems/word-search/description/
  *
- * @tags 'Backtracking' '看的题解'
+ * @tags 'Array' 'DFS' 'Backtracking'
  *
  * 给定一个二维网格和一个单词，找出该单词是否存在于网格中。
  *

@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=17 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-06-05
- *
  * [17] 电话号码的字母组合
  *
  * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/
  *
- * @tags 'Backtracking' '看的题解'
+ * @tags 'DFS' 'Backtracking'
  *
  * 给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
  *
@@ -42,7 +39,18 @@ var letterCombinations = function (digits) {
   // 输入空数据 '' 或空数组 [] 时
   if (digits.length === 0) return [];
 
-  let phones = [ "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" ];
+  let phones = [
+    "",
+    "",
+    "abc",
+    "def",
+    "ghi",
+    "jkl",
+    "mno",
+    "pqrs",
+    "tuv",
+    "wxyz",
+  ];
   // 存储最终结果
   let result = [];
   // 存储回溯过程中的临时结果

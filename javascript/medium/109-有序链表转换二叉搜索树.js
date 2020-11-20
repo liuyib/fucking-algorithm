@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=109 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-20
- *
  * [109] 有序链表转换二叉搜索树
  *
  * https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/
  *
- * @tags 'Linked List' 'Binary Search Tree'
+ * @tags 'Linked List' 'DFS'
  *
  * 给定一个单链表，其中的元素按升序排序，将其转换为高度平衡的二叉搜索树。
  *

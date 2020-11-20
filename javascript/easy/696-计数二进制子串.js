@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=696 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-06-03
- *
  * [696] 计数二进制子串
  *
  * https://leetcode-cn.com/problems/count-binary-substrings/description/
  *
- * @tags 'String' '看的题解'
+ * @tags 'String'
  *
  * 给定一个字符串 s，计算具有相同数量0和1的非空(连续)子字符串的数量，并且这些子字符串中的所有0和所有1都是组合在一起的。
  *

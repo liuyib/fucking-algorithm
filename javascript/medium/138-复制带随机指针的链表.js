@@ -1,14 +1,11 @@
 /*
  * @lc app=leetcode.cn id=138 lang=javascript
  *
- * 作者：liuyib <https://github.com/liuyib>
- * 日期：2020-10-21
- *
  * [138] 复制带随机指针的链表
  *
  * https://leetcode-cn.com/problems/root-list-with-random-pointer/description/
  *
- * @tags 'Linked List' '看的题解' '链表深拷贝（难点：循环引用）'
+ * @tags 'Linked List' 'DFS'
  *
  * 给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
  *
