@@ -19,7 +19,7 @@
 |769|[最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|⭐⭐|[JavaScript](./javascript/medium/769-最多能完成排序的块.js)|`Stack`, `单调栈`|[`T#768`](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)|
 |768|[最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)|⭐⭐⭐|[JavaScript](./javascript/hard/768-最多能完成排序的块-ii.js)|`Stack`, `单调栈`|[`T#769`](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|
 |696|[计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|⭐|[JavaScript](./javascript/easy/696-计数二进制子串.js)|`String`||
-|695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`DFS`||
+|695|[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|⭐⭐|[JavaScript](./javascript/medium/695-岛屿的最大面积.js)|`DFS`, `BFS`|[`T#200`](./javascript/medium/200-岛屿数量.js)|
 |599|[两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)|⭐|[JavaScript](./javascript/easy/599-两个列表的最小索引总和.js)|`Array`, `Hash Table`||
 |560|[和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|⭐⭐|[JavaScript](./javascript/medium/560-和为k的子数组.js)|`Array`, `Hash Table`, `前缀和`||
 |513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|⭐⭐|[JavaScript](./javascript/medium/513-找树左下角的值.js)|`Binary Tree`, `DFS`, `BFS`||
@@ -27,6 +27,7 @@
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|⭐|[JavaScript](./javascript/easy/237-删除链表中的节点.js)|`Linked List`||
 |228|[汇总区间](https://leetcode-cn.com/problems/summary-ranges/)|⭐⭐|[JavaScript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js)|`Array`||
 |203|[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|⭐|[JavaScript](./javascript/easy/203-移除链表元素.js)|`Linked List`||
+|200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)|⭐|[JavaScript](./javascript/medium/200-岛屿数量.js)|`DFS`, `BFS`|[`T#695`](./javascript/medium/695-岛屿的最大面积.js)|
 |160|[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|⭐|[JavaScript](./javascript/easy/160-相交链表.js)|`Linked List`||
 |146|[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)|⭐⭐|[JavaScript](./javascript/medium/146-lru缓存机制.js)|`设计`||
 |143|[重排链表](https://leetcode-cn.com/problems/reorder-list/)|⭐⭐|[JavaScript](./javascript/medium/143-重排链表.js)|`Linked List`||
