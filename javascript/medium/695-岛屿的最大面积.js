@@ -41,41 +41,40 @@
  * @param {number[][]} grid
  * @return {number}
  */
+/**
+ * @param {number[][]} grid
+ * @return {number}
+ */
 var maxAreaOfIsland = function (grid) {
-  if (grid.length === 0) return false;
-  if (grid[0].length === 0) return false;
+  if (!grid || !grid.length) return 0;
 
   const row = grid.length;
   const col = grid[0].length;
-  // 标记数组
-  const marked = [...Array(row)].map(() => Array(col).fill(false));
-  // 搜索到的最大面积
+
+  const cache = new Set();
   let maxArea = 0;
-  // 当前正在搜索的面积
-  let curArea = 0;
 
   for (let i = 0; i < row; i++) {
     for (let j = 0; j < col; j++) {
-      maxAreaOfIsland_DFS(i, j);
-      maxArea = Math.max(maxArea, curArea);
-      curArea = 0;
+      if (grid[i][j] === 1) {
+        maxArea = Math.max(maxArea, dfs(i, j));
+      }
     }
   }
 
-  return maxArea;
+  function dfs(i, j) {
+    if (i < 0 || i >= row || j < 0 || j >= col) return 0;
+    if (cache.has(`${i}-${j}`) || grid[i][j] !== 1) return 0;
 
-  function maxAreaOfIsland_DFS(i, j) {
-    // 越界、标记过
-    if (i < 0 || i >= row || j < 0 || j >= col || marked[i][j]) return false;
-    if (grid[i][j] !== 1) return false;
+    cache.add(`${i}-${j}`);
 
-    marked[i][j] = true;
-    curArea += 1;
+    const curArea =
+      1 + dfs(i, j + 1) + dfs(i, j - 1) + dfs(i + 1, j) + dfs(i - 1, j);
 
-    maxAreaOfIsland_DFS(i, j + 1);
-    maxAreaOfIsland_DFS(i + 1, j);
-    maxAreaOfIsland_DFS(i, j - 1);
-    maxAreaOfIsland_DFS(i - 1, j);
+    return curArea;
   }
+
+  return maxArea;
 };
+
 // @lc code=end
