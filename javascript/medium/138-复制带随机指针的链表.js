@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/root-list-with-random-pointer/description/
  *
+ * @level ⭐⭐
  * @tags 'Linked List' 'DFS'
+ * @similars
+ * @end
  *
  * 给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
  *
@@ -40,9 +43,10 @@
  *
  * 提示：
  *
- * -10000 <= Node.val <= 10000
- * Node.random 为空（null）或指向链表中的节点。
- * 节点数目不超过 1000 。
+ * 1. -10000 <= Node.val <= 10000
+ * 2. Node.random 为空（null）或指向链表中的节点。
+ * 3. 节点数目不超过 1000 。
+ *
  */
 
 // @lc code=start

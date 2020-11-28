@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/description/
  *
+ * @level ⭐⭐
  * @tags 'Binary Tree' 'Hash Table'
+ * @similars
+ * @end
  *
  * 给定二叉树，按垂序遍历返回其结点值。
  *

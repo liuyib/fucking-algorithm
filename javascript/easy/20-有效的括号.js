@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/valid-parentheses/description/
  *
+ * @level ⭐
  * @tags 'Stack'
+ * @similars ''
+ * @end
  *
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
  *
@@ -40,6 +43,7 @@
  *
  * 输入: "{[]}"
  * 输出: true
+ *
  */
 
 // @lc code=start

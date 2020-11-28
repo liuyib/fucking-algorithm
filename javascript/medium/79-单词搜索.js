@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/word-search/description/
  *
+ * @level ⭐⭐
  * @tags 'Array' 'DFS' 'Backtracking'
+ * @similars
+ * @end
  *
  * 给定一个二维网格和一个单词，找出该单词是否存在于网格中。
  *
@@ -26,10 +29,11 @@
  *
  * 提示：
  *
- * board 和 word 中只包含大写和小写英文字母。
- * 1 <= board.length    <= 200
- * 1 <= board[i].length <= 200
- * 1 <= word.length     <= 10^3
+ * 1. board 和 word 中只包含大写和小写英文字母。
+ * 2. 1 <= board.length    <= 200
+ * 3. 1 <= board[i].length <= 200
+ * 4. 1 <= word.length     <= 10^3
+ *
  */
 
 // @lc code=start

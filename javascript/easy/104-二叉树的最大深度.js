@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/
  *
+ * @level ⭐
  * @tags 'Binary Tree' 'DFS'
+ * @similars
+ * @end
  *
  * 给定一个二叉树，找出其最大深度。
  *
@@ -23,6 +26,7 @@
  * ⁠  15   7
  *
  * 返回它的最大深度 3 。
+ *
  */
 
 // @lc code=start

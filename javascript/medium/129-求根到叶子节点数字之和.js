@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/description/
  *
+ * @level ⭐⭐
  * @tags 'Binary Tree' 'DFS'
+ * @similars
+ * @end
  *
  * 给定一个二叉树，它的每个结点都存放一个 0-9 的数字，每条从根到叶子节点的路径都代表一个数字。
  *
@@ -41,6 +44,7 @@
  * 从根到叶子节点路径 4->9->1 代表数字 491.
  * 从根到叶子节点路径 4->0 代表数字 40.
  * 因此，数字总和 = 495 + 491 + 40 = 1026.
+ *
  */
 
 // @lc code=start

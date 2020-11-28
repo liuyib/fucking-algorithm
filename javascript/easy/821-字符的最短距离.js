@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/
  *
+ * @level ⭐
  * @tags 'String' 'Greedy'
+ * @similars
+ * @end
  *
  * 给定一个字符串 S 和一个字符 C。返回一个代表字符串 S 中每个字符到字符串 S 中的字符 C 的最短距离的数组。
  *
@@ -16,9 +19,10 @@
  *
  * 说明:
  *
- * 字符串 S 的长度范围为 [1, 10000]。
- * C 是一个单字符，且保证是字符串 S 里的字符。
- * S 和 C 中的所有字母均为小写字母。
+ * 1. 字符串 S 的长度范围为 [1, 10000]。
+ * 2. C 是一个单字符，且保证是字符串 S 里的字符。
+ * 3. S 和 C 中的所有字母均为小写字母。
+ *
  */
 
 // @lc code=start

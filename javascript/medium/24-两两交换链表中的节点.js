@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/
  *
+ * @level ⭐⭐
  * @tags 'Linked List'
+ * @similars
+ * @end
  *
  * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
  *
@@ -27,8 +30,10 @@
  * 输出：[1]
  *
  * 提示：
+ *
  * 1. 链表中节点的数目在范围 [0, 100] 内
  * 2. 0 <= Node.val <= 100
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/rotate-list/description/
  *
+ * @level ⭐⭐
  * @tags 'Linked List' 'Double Pointer'
+ * @similars
+ * @end
  *
  * 给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
  *
@@ -26,6 +29,7 @@
  * 向右旋转 2 步: 1->2->0->NULL
  * 向右旋转 3 步: 0->1->2->NULL
  * 向右旋转 4 步: 2->0->1->NULL
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/max-chunks-to-make-sorted/description/
  *
+ * @level ⭐⭐
  * @tags 'Stack' '单调栈'
+ * @similars
+ * @end
  *
  * 数组 arr 是 [0, 1, ..., arr.length - 1] 的一种排列，
  * 我们将这个数组分割成几个“块”，并将这些块分别进行排序。
@@ -33,6 +36,7 @@
  *
  * arr 的长度在 [1, 10] 之间。
  * arr[i] 是 [0, 1, ..., arr.length - 1]的一种排列。
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
  *
+ * @level ⭐⭐
  * @tags 'Array' 'Binary Tree' 'Recursion'
+ * @similars
+ * @end
  *
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
  *

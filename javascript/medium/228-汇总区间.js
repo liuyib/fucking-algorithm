@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/summary-ranges/description/
  *
+ * @level ⭐⭐
  * @tags 'Array' 'Double Pointer'
+ * @similars
+ * @end
  *
  * 给定一个无重复元素的有序整数数组 nums 。
  *
@@ -56,6 +59,7 @@
  * 0 <= nums.length <= 20
  * -2^31 <= nums[i] <= 2^31 - 1
  * nums 中的所有值都 互不相同
+ *
  */
 
 // @lc code=start

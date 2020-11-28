@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/linked-list-cycle-ii/description/
  *
+ * @level ⭐⭐
  * @tags 'Linked List' 'Double Pointer' 'Hash Table'
+ * @similars
+ * @end
  *
  * 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
  *
@@ -37,8 +40,10 @@
  * 解释：链表中没有环。
  *
  * 提示：
+ *
  * 1. 链表中节点的数目范围在范围 [0, 10^4] 内 -10^5
  * 2. pos 的值为 -1 或者链表中的一个有效索引
+ *
  */
 
 // @lc code=start

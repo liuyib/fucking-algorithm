@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/linked-list-cycle/description/
  *
+ * @level ⭐
  * @tags 'Linked List' 'Double Pointer' 'Hash Table'
+ * @similars
+ * @end
  *
  * 给定一个链表，判断链表中是否有环。
  *
@@ -38,9 +41,11 @@
  * 解释：链表中没有环。
  *
  * 提示：
+ *
  * 1. 链表中节点的数目范围是 [0, 10^4]
  * 2. -10^5 <= Node.val <= 10^5
  * 3. pos 为 -1 或者链表中的一个 有效索引 。
+ *
  */
 
 // @lc code=start

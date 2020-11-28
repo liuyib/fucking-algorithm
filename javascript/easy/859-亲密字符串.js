@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/buddy-strings/description/
  *
+ * @level ⭐
  * @tags 'String'
+ * @similars
+ * @end
  *
  * 给定两个由小写字母构成的字符串 A 和 B ，只要我们可以通过交换 A 中的两个字母得到与 B 相等的结果，就返回 true ；否则返回 false。
  *
@@ -41,9 +44,11 @@
  * 输出： false
  *
  * 提示：
+ *
  * 1. 0 <= A.length <= 20000
  * 2. 0 <= B.length <= 20000
  * 3. A 和 B 仅由小写字母构成。
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/decode-string/description/
  *
+ * @level ⭐⭐
  * @tags 'Stack' 'DFS'
+ * @similars
+ * @end
  *
  * 给定一个经过编码的字符串，返回它解码后的字符串。
  *
@@ -34,6 +37,7 @@
  *
  * 输入：s = "abc3[cd]xyz"
  * 输出："abccdcdcdxyz"
+ *
  */
 
 // @lc code=start

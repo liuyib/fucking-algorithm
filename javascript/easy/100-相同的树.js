@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/same-tree/description/
  *
+ * @level ⭐
  * @tags 'Binary Tree' 'DFS'
+ * @similars
+ * @end
  *
  * 给定两个二叉树，编写一个函数来检验它们是否相同。
  *
@@ -41,6 +44,7 @@
  * ⁠       [1,2,1],   [1,1,2]
  *
  * 输出: false
+ *
  */
 
 // @lc code=start
@@ -58,13 +62,9 @@
  * @return {boolean}
  */
 var isSameTree = function (p, q) {
-  if (p === null && q === null) {
-    return true;
-  } else if (p === null || q === null) {
-    return false;
-  } else if (p.val !== q.val) {
-    return false;
-  }
+  if (p === null && q === null) return true;
+  if (p === null || q === null) return false;
+  if (p.val !== q.val) return false;
 
   return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 };

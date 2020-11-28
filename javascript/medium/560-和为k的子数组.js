@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/subarray-sum-equals-k/description/
  *
+ * @level ⭐⭐
  * @tags 'Array' 'Hash Table' '前缀和'
+ * @similars
+ * @end
  *
  * 给定一个整数数组和一个整数 k，你需要找到该数组中和为 k 的连续的子数组的个数。
  *
@@ -18,6 +21,7 @@
  *
  * 数组的长度为 [1, 20,000]。
  * 数组中元素的范围是 [-1000, 1000] ，且整数 k 的范围是 [-1e7, 1e7]。
+ *
  */
 
 // @lc code=start

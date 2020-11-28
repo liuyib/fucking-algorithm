@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/valid-mountain-array/description/
  *
+ * @level ⭐
  * @tags 'Array' 'Double Pointer'
+ * @similars
+ * @end
  *
  * 给定一个整数数组 A，如果它是有效的山脉数组就返回 true，否则返回 false。
  *
@@ -34,8 +37,9 @@
  *
  * 提示：
  *
- * 0 <= A.length <= 10000
- * 0 <= A[i] <= 10000
+ * 1. 0 <= A.length <= 10000
+ * 2. 0 <= A[i] <= 10000
+ *
  */
 
 // @lc code=start

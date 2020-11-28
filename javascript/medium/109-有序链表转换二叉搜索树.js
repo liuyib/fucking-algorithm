@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/
  *
+ * @level ⭐⭐
  * @tags 'Linked List' 'DFS'
+ * @similars
+ * @end
  *
  * 给定一个单链表，其中的元素按升序排序，将其转换为高度平衡的二叉搜索树。
  *
@@ -22,6 +25,7 @@
  * ⁠  -3   9
  * ⁠  /   /
  * ⁠-10  5
+ *
  */
 
 // @lc code=start

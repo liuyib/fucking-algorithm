@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/
  *
+ * @level ⭐
  * @tags 'Linked List' 'Double Pointer'
+ * @similars
+ * @end
  *
  * 编写一个程序，找到两个单链表相交的起始节点。
  *
@@ -40,6 +43,7 @@
  * 2. 在返回结果后，两个链表仍须保持原有的结构。
  * 3. 可假定整个链表结构中没有循环。
  * 4. 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
+ *
  */
 
 // @lc code=start

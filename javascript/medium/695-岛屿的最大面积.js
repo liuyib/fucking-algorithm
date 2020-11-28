@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/max-area-of-island/description/
  *
+ * @level ⭐⭐
  * @tags 'DFS' 'Backtracking'
+ * @similars
+ * @end
  *
  * 给定一个包含了一些 0 和 1 的非空二维数组 grid 。
  *
@@ -34,6 +37,7 @@
  * 对于上面这个给定的矩阵, 返回 0。
  *
  * 注意: 给定的矩阵grid 的长度和宽度都不超过 50。
+ *
  */
 
 // @lc code=start

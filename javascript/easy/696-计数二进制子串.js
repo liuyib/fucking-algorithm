@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/count-binary-substrings/description/
  *
+ * @level ⭐
  * @tags 'String'
+ * @similars
+ * @end
  *
  * 给定一个字符串 s，计算具有相同数量0和1的非空(连续)子字符串的数量，并且这些子字符串中的所有0和所有1都是组合在一起的。
  *
@@ -29,8 +32,9 @@
  *
  * 注意：
  *
- * s.length 在1到50,000之间。
- * s 只包含“0”或“1”字符。
+ * 1. s.length 在1到50,000之间。
+ * 2. s 只包含“0”或“1”字符。
+ *
  */
 
 // @lc code=start

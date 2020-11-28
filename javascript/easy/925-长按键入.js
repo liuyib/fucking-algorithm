@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/long-pressed-name/description/
  *
+ * @level ⭐
  * @tags 'String' 'Double Pointer'
+ * @similars
+ * @end
  *
  * 你的朋友正在使用键盘输入他的名字 name。偶尔，在键入字符 c 时，按键可能会被长按，而字符可能被输入 1 次或多次。
  *
@@ -35,9 +38,10 @@
  *
  * 提示：
  *
- * name.length <= 1000
- * typed.length <= 1000
- * name 和 typed 的字符都是小写字母
+ * 1. name.length <= 1000
+ * 2. typed.length <= 1000
+ * 3. name 和 typed 的字符都是小写字母
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/
  *
+ * @level ⭐
  * @tags 'Array' 'BST' 'DFS'
+ * @similars
+ * @end
  *
  * 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
  *
@@ -22,6 +25,7 @@
  * ⁠  -3   9
  * ⁠  /   /
  * ⁠-10  5
+ *
  */
 
 // @lc code=start

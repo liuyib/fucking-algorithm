@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/description/
  *
+ * @level ⭐⭐⭐
  * @tags 'Stack' '单调栈'
+ * @similars
+ * @end
  *
  * 这个问题和“最多能完成排序的块”相似，但给定数组中的元素可以重复，输入数组最大长度为2000，其中的元素最大为10**8。
  *
@@ -31,8 +34,9 @@
  *
  * 注意:
  *
- * arr的长度在[1, 2000]之间。
- * arr[i]的大小在[0, 10**8]之间。
+ * 1. arr的长度在[1, 2000]之间。
+ * 2. arr[i]的大小在[0, 10**8]之间。
+ *
  */
 
 // @lc code=start

@@ -5,7 +5,10 @@
  *
  * https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/
  *
+ * @level ⭐
  * @tags 'Array' 'Hash Table'
+ * @similars
+ * @end
  *
  * 假设Andy和Doris想在晚餐时选择一家餐厅，并且他们都有一个表示最喜爱餐厅的列表，每个餐厅的名字用字符串表示。
  *
@@ -29,10 +32,12 @@
  * 解释: 他们共同喜爱且具有最小索引和的餐厅是“Shogun”，它有最小的索引和1(0+1)。
  *
  * 提示:
+ *
  * 1. 两个列表的长度范围都在 [1, 1000]内。
  * 2. 两个列表中的字符串的长度将在[1，30]的范围内。
  * 3. 下标从0开始，到列表的长度减1。
  * 4. 两个列表都没有重复的元素。
+ *
  */
 
 // @lc code=start
