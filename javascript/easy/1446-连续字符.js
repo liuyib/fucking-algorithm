@@ -6,8 +6,8 @@
  * https://leetcode-cn.com/problems/consecutive-characters/description/
  *
  * @level ⭐
- * @tags 'Sliding Window' 'Double Pointer'
- * @similars
+ * @tags 'Sliding Window' '多题同解'
+ * @similars 'T#485'
  * @end
  *
  * 给你一个字符串 s ，字符串的「能量」定义为：只包含一种字符的最长非空子字符串的长度。
@@ -54,11 +54,12 @@
  * @return {number}
  */
 var maxPower = function (s) {
+  const len = s.length;
   let r = 0;
   let ans = 0;
 
-  for (let l = 0; l < s.length; l = r) {
-    while (s[l] === s[r]) {
+  for (let l = 0; l < len; l = r) {
+    while (r < len && s[l] === s[r]) {
       r++;
     }
 
