@@ -43,16 +43,16 @@ var letterCombinations = function (digits) {
   if (digits.length === 0) return [];
 
   let phones = [
-    "",
-    "",
-    "abc",
-    "def",
-    "ghi",
-    "jkl",
-    "mno",
-    "pqrs",
-    "tuv",
-    "wxyz",
+    '',
+    '',
+    'abc',
+    'def',
+    'ghi',
+    'jkl',
+    'mno',
+    'pqrs',
+    'tuv',
+    'wxyz',
   ];
   // 存储最终结果
   let result = [];
@@ -62,7 +62,7 @@ var letterCombinations = function (digits) {
   let combination = (digits, index) => {
     // 当临时数组存入 digits.length 个数据时，递归返回
     if (index === digits.length) {
-      result.push(current.join(""));
+      result.push(current.join(''));
       return;
     }
 

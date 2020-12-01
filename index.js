@@ -1,4 +1,4 @@
-const TableGT = require("tablegt");
+const TableGT = require('tablegt');
 const tablegt = new TableGT();
 
-tablegt.build("./javascript");
+tablegt.build('./javascript');

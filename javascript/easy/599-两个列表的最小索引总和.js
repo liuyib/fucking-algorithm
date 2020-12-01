@@ -73,11 +73,11 @@ var findRestaurant = function (list1, list2) {
   return ret;
 };
 
-const temp1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"];
-const temp2 = ["KFC", "Shogun", "Burger King"];
+const temp1 = ['Shogun', 'Tapioca Express', 'Burger King', 'KFC'];
+const temp2 = ['KFC', 'Shogun', 'Burger King'];
 console.log(
   `findRestaurant(temp1, temp2): `,
   findRestaurant(temp1, temp2),
-  `should: ["Shogun"]`
+  `should: ["Shogun"]`,
 );
 // @lc code=end

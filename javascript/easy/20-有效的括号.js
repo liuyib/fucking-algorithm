@@ -52,9 +52,9 @@
  * @return {boolean}
  */
 var isValid = function (s) {
-  if (s === "") return true;
+  if (s === '') return true;
 
-  const pair = { "(": ")", "[": "]", "{": "}" };
+  const pair = { '(': ')', '[': ']', '{': '}' };
   const stack = [];
 
   for (let i = 0; i < s.length; i++) {

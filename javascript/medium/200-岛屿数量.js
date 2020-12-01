@@ -60,7 +60,7 @@ var numIslands = function (grid) {
 
   for (let i = 0; i < row; i++) {
     for (let j = 0; j < col; j++) {
-      if (grid[i][j] === "1") {
+      if (grid[i][j] === '1') {
         const hasLand = dfs(i, j);
 
         if (hasLand) count++;
@@ -75,7 +75,7 @@ var numIslands = function (grid) {
    */
   function dfs(i, j) {
     if (i < 0 || i >= row || j < 0 || j >= col) return false;
-    if (cache.has(`${i}-${j}`) || grid[i][j] !== "1") return false;
+    if (cache.has(`${i}-${j}`) || grid[i][j] !== '1') return false;
 
     cache.add(`${i}-${j}`);
 

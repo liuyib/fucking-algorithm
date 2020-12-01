@@ -99,7 +99,7 @@ class BST {
 
   midOrder() {
     if (this.size === 0) {
-      throw new Error("BST is Empty.");
+      throw new Error('BST is Empty.');
     }
 
     const result = [];

@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "leetcode",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "style": "prettier --write **/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuyib/leetcode.git"
@@ -18,5 +20,7 @@
   "dependencies": {
     "tablegt": "^0.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }

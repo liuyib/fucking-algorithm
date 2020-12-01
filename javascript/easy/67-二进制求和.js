@@ -45,11 +45,11 @@ var addBinary = function (a, b) {
 
   let temp = 0;
   let carry = 0;
-  let result = "";
+  let result = '';
 
   for (let i = 0; i < maxLen; i++) {
-    const aItem = a[aLen - 1 - i] === "1" ? 1 : 0;
-    const bItem = b[bLen - 1 - i] === "1" ? 1 : 0;
+    const aItem = a[aLen - 1 - i] === '1' ? 1 : 0;
+    const bItem = b[bLen - 1 - i] === '1' ? 1 : 0;
 
     temp = aItem + bItem + carry;
     result = (temp % 2) + result;
