@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/liuyib/leetcode",
   "dependencies": {
-    "tablegt": "^0.6.0"
+    "tablegt": "^0.6.1"
   },
   "devDependencies": {}
 }
