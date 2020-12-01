@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/root-list-with-random-pointer/description/
  *
  * @level ⭐⭐
- * @tags 'Linked List' 'DFS'
+ * @tags Linked List, DFS
  * @similars
  * @end
  *

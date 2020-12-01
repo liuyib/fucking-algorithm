@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/merge-two-sorted-lists/description/
  *
  * @level ⭐
- * @tags 'Linked List' 'Double Pointer'
+ * @tags Linked List, Double Pointer
  * @similars
  * @end
  *

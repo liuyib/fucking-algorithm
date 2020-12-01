@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
  *
  * @level ⭐⭐
- * @tags 'Array' 'Binary Tree' 'Recursion'
+ * @tags Array, Binary Tree, Recursion
  * @similars
  * @end
  *

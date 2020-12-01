@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/
  *
  * @level ⭐⭐
- * @tags 'Binary Tree' 'DFS' 'BFS'
+ * @tags Binary Tree, DFS, BFS
  * @similars
  * @end
  *

@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/word-search/description/
  *
  * @level ⭐⭐
- * @tags 'Array' 'DFS' 'Backtracking'
+ * @tags Array, DFS, Backtracking
  * @similars
  * @end
  *

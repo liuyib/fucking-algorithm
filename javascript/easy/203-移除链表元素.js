@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/remove-linked-list-elements/description/
  *
  * @level ⭐
- * @tags 'Linked List' 'Recursion'
+ * @tags Linked List, Recursion
  * @similars
  * @end
  *

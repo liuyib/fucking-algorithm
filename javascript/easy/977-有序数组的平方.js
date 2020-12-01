@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/
  *
  * @level ⭐
- * @tags 'Array' 'Double Pointer'
+ * @tags Array, Double Pointer
  * @similars
  * @end
  *

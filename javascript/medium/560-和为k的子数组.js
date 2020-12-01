@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/subarray-sum-equals-k/description/
  *
  * @level ⭐⭐
- * @tags 'Array' 'Hash Table' '前缀和'
+ * @tags Array, Hash Table, 前缀和
  * @similars
  * @end
  *

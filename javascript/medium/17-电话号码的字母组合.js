@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/
  *
  * @level ⭐⭐
- * @tags 'DFS' 'Backtracking'
+ * @tags DFS, Backtracking
  * @similars
  * @end
  *

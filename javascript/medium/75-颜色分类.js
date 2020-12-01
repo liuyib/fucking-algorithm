@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/sort-colors/description/
  *
  * @level ⭐⭐
- * @tags 'Array' 'Double Pointer'
+ * @tags Array, Double Pointer
  * @similars
  * @end
  *

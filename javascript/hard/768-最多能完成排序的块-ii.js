@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/description/
  *
  * @level ⭐⭐⭐
- * @tags 'Stack' '单调栈'
+ * @tags Stack, 单调栈
  * @similars
  * @end
  *

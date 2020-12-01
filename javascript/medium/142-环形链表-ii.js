@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/linked-list-cycle-ii/description/
  *
  * @level ⭐⭐
- * @tags 'Linked List' 'Double Pointer' 'Hash Table'
+ * @tags Linked List, Double Pointer, Hash Table
  * @similars
  * @end
  *

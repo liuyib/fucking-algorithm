@@ -6,8 +6,8 @@
  * https://leetcode-cn.com/problems/max-consecutive-ones/description/
  *
  * @level ⭐
- * @tags 'Sliding Window' '多题同解'
- * @similars 'T#1446'
+ * @tags Sliding Window, 多题同解
+ * @similars T#1446
  * @end
  *
  * 给定一个二进制数组， 计算其中最大连续1的个数。

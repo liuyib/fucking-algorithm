@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/
  *
  * @level ⭐⭐
- * @tags 'Linked List'
+ * @tags Linked List
  * @similars
  * @end
  *

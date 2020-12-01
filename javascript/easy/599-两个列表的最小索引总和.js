@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/
  *
  * @level ⭐
- * @tags 'Array' 'Hash Table'
+ * @tags Array, Hash Table
  * @similars
  * @end
  *

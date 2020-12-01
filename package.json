@@ -1,0 +1,22 @@
+{
+  "name": "leetcode",
+  "version": "0.0.1",
+  "description": "leetcode",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyib/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuyib/leetcode/issues"
+  },
+  "homepage": "https://github.com/liuyib/leetcode",
+  "dependencies": {
+    "tablegt": "^0.6.0"
+  },
+  "devDependencies": {}
+}

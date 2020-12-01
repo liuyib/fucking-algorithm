@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/
  *
  * @level ⭐⭐
- * @tags 'Linked List' 'DFS'
+ * @tags Linked List, DFS
  * @similars
  * @end
  *

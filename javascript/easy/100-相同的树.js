@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/same-tree/description/
  *
  * @level ⭐
- * @tags 'Binary Tree' 'DFS'
+ * @tags Binary Tree, DFS
  * @similars
  * @end
  *

@@ -6,8 +6,8 @@
  * https://leetcode-cn.com/problems/consecutive-characters/description/
  *
  * @level ⭐
- * @tags 'Sliding Window' '多题同解'
- * @similars 'T#485'
+ * @tags Sliding Window, 多题同解
+ * @similars T#485
  * @end
  *
  * 给你一个字符串 s ，字符串的「能量」定义为：只包含一种字符的最长非空子字符串的长度。

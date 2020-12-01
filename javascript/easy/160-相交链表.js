@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/
  *
  * @level ⭐
- * @tags 'Linked List' 'Double Pointer'
+ * @tags Linked List, Double Pointer
  * @similars
  * @end
  *

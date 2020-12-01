@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/description/
  *
  * @level ⭐⭐
- * @tags 'Binary Tree' 'DFS'
+ * @tags Binary Tree, DFS
  * @similars
  * @end
  *

@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
  *
  * @level ⭐
- * @tags 'Linked List' 'Stack' 'Recursion'
+ * @tags Linked List, Stack, Recursion
  * @similars
  * @end
  *

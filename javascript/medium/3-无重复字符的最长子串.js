@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/
  *
  * @level ⭐⭐
- * @tags 'String' 'Sliding Window' 'Double Pointer' 'Hash Table'
+ * @tags String, Sliding Window, Hash Table
  * @similars
  * @end
  *

@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/add-binary/description/
  *
  * @level ⭐
- * @tags 'String'
+ * @tags String
  * @similars
  * @end
  *

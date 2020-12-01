@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/reorder-list/description/
  *
  * @level ⭐⭐
- * @tags 'Linked List' 'Double Pointer' 'Recursion'
+ * @tags Linked List, Double Pointer, Recursion
  * @similars
  * @end
  *

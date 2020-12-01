@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/
  *
  * @level ⭐
- * @tags 'Linked List'
+ * @tags Linked List
  * @similars
  * @end
  *

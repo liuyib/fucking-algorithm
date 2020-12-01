@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/description/
  *
  * @level ⭐⭐
- * @tags 'Binary Tree' 'Hash Table'
+ * @tags Binary Tree, Hash Table
  * @similars
  * @end
  *

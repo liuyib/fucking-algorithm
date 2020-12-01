@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/
  *
  * @level ⭐
- * @tags 'Binary Tree' 'DFS'
+ * @tags Binary Tree, DFS
  * @similars
  * @end
  *

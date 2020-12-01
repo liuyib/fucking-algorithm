@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/number-of-islands/description/
  *
  * @level ⭐⭐
- * @tags 'DFS' 'BFS'
+ * @tags DFS, BFS
  * @similars
  * @end
  *

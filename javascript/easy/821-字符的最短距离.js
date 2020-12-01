@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/
  *
  * @level ⭐
- * @tags 'String' 'Greedy'
+ * @tags String, Greedy
  * @similars
  * @end
  *

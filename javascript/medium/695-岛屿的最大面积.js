@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/max-area-of-island/description/
  *
  * @level ⭐⭐
- * @tags 'DFS' 'Backtracking'
+ * @tags DFS, Backtracking
  * @similars
  * @end
  *

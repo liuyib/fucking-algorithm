@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/buddy-strings/description/
  *
  * @level ⭐
- * @tags 'String'
+ * @tags String
  * @similars
  * @end
  *

@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/
  *
  * @level ⭐
- * @tags 'Array' 'BST' 'DFS'
+ * @tags Array, BST, DFS
  * @similars
  * @end
  *

@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/long-pressed-name/description/
  *
  * @level ⭐
- * @tags 'String' 'Double Pointer'
+ * @tags String, Double Pointer
  * @similars
  * @end
  *

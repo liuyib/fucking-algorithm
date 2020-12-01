@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/plus-one/description/
  *
  * @level ⭐
- * @tags 'Array'
+ * @tags Array
  * @similars
  * @end
  *

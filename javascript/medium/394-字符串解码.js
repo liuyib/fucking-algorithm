@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/decode-string/description/
  *
  * @level ⭐⭐
- * @tags 'Stack' 'DFS'
+ * @tags Stack, DFS
  * @similars
  * @end
  *
