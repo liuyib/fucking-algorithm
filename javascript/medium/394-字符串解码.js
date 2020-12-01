@@ -55,22 +55,22 @@ var decodeString = function (s) {
   const stack = [];
 
   function isDigit(val) {
-    return val >= "0" && val <= "9";
+    return val >= '0' && val <= '9';
   }
 
-  let multi = 0;
-  let res = "";
+  let num = 0;
+  let res = '';
 
   for (let i = 0; i < s.length; i++) {
     if (isDigit(s[i])) {
-      multi = multi * 10 + parseInt(s[i]);
-    } else if (s[i] === "[") {
-      stack.push({ multi: parseInt(multi), res });
-      multi = 0;
-      res = "";
-    } else if (s[i] === "]") {
+      num = num * 10 + parseInt(s[i]);
+    } else if (s[i] === '[') {
+      stack.push({ num, res });
+      num = 0;
+      res = '';
+    } else if (s[i] === ']') {
       const top = stack.pop();
-      res = top.res + res.repeat(top.multi);
+      res = top.res + res.repeat(top.num);
     } else {
       res += s[i];
     }
@@ -84,81 +84,33 @@ var decodeString = function (s) {
  * 递归查找，遇到 [ 是递归的开始条件，遇到 ] 是递归的终止条件
  */
 var decodeString = function (s) {
-  var dfs = (s, i) => {
-    let multi = 0;
-    let res = "";
+  const len = s.length;
 
-    while (i < s.length) {
-      if (s[i] >= "0" && s[i] <= "9") {
-        multi = multi * 10 + parseInt(s[i]);
-      } else if (s[i] === "[") {
-        const temp = dfs(s, i + 1);
-
-        while (multi > 0) {
-          res += temp.res;
-          multi -= 1;
-        }
-        i = temp.i;
-      } else if (s[i] === "]") {
-        return { res, i };
+  var dfs = (i, num, str) => {
+    while (i < len) {
+      if (s[i] >= '0' && s[i] <= '9') {
+        num = num * 10 + parseInt(s[i]);
+      } else if (s[i] === '[') {
+        const sub = dfs(i + 1, 0, '');
+        str += sub.str.repeat(num);
+        i = sub.i;
+        num = 0;
+      } else if (s[i] === ']') {
+        return { i, str };
       } else {
-        res += s[i];
+        str += s[i];
       }
-      i += 1;
+
+      i++;
     }
 
-    return res;
+    return str;
   };
 
-  return dfs(s, 0);
+  return dfs(0, 0, '');
 };
 
-/**
- * 自己的思路：
- * 用 i 记录最后遇到的 [ 的位置，用 j 记录第一次遇到的 ] 的位置，然后第一次遇到 ] 时，
- * 就可以通过两个指针获取到括号中的字符串和括号前面的数字，相乘得到一个结果，然后替换主串中处理过的部分
- */
-var decodeString = function (s) {
-  let l = 0;
-  let r = 0;
-
-  for (let i = 0; i < s.length; i++) {
-    let temp = "";
-
-    if (s[i] === "[") {
-      l = i;
-    }
-    if (s[i] === "]") {
-      r = i;
-
-      let find = l - 1;
-      let num = "";
-
-      while (/[0-9]/.test(s[find])) {
-        num = s[find] + num;
-        find -= 1;
-      }
-
-      num = parseInt(num);
-
-      let sub = s.substring(l + 1, r);
-
-      while (num > 0) {
-        temp += sub;
-        num -= 1;
-      }
-
-      s = s.substring(0, find + 1) + temp + s.substring(r + 1);
-      s = decodeString(s);
-
-      break;
-    }
-  }
-
-  return s;
-};
-
-// console.log(`decodeString("3[a]2[bc]")`, decodeString("3[a]2[bc]"));
-// console.log(`decodeString("3[a2[c]]")`, decodeString("3[a2[c]]"));
-// console.log(`"100[leetcode]"`, decodeString("100[leetcode]"));
+console.log(`decodeString("3[a]2[bc]")`, decodeString('3[a]2[bc]'));
+console.log(`decodeString("3[a2[c]]")`, decodeString('3[a2[c]]'));
+console.log(`"10[leetcode]"`, decodeString('10[leetcode]'));
 // @lc code=end
