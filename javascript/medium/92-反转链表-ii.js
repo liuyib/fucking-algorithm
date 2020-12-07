@@ -5,7 +5,7 @@
  *
  * https://leetcode-cn.com/problems/reverse-linked-list-ii/description/
  *
- * @level ⭐
+ * @level ⭐⭐
  * @end
  *
  * 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。

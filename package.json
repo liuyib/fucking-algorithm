@@ -4,7 +4,8 @@
   "description": "leetcode",
   "main": "index.js",
   "scripts": {
-    "style": "prettier --write **/*.js"
+    "style": "prettier --write **/*.js",
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",

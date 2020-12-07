@@ -5,7 +5,7 @@
  *
  * https://leetcode-cn.com/problems/validate-binary-search-tree/description/
  *
- * @level ⭐
+ * @level ⭐⭐
  * @end
  *
  * 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
