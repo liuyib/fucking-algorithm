@@ -32,32 +32,31 @@
  * @return {number}
  */
 var subarraySum = function (nums, k) {
-  const map = new Map();
+  const data = new Map();
   let pre = 0;
-  let count = 0;
+  let ans = 0;
 
-  map.set(0, 1);
+  // 某次计算出的前缀和直接等于 k
+  data.set(0, 1);
 
-  for (const num of nums) {
-    pre += num;
+  for (let i = 0; i < nums.length; i++) {
+    // 前缀和
+    pre += nums[i];
 
-    if (map.has(pre - k)) {
-      count += map.get(pre - k);
+    if (data.has(pre - k)) {
+      ans += data.get(pre - k);
     }
 
-    if (map.has(pre)) {
-      map.set(pre, map.get(pre) + 1);
-    } else {
-      map.set(pre, 1);
-    }
+    data.set(pre, (data.get(pre) || 0) + 1);
   }
 
-  return count;
+  return ans;
 };
-// console.log(`subarraySum([1, 2, 3], 3)`, subarraySum([1, 2, 3], 3), 2);
-// console.log(`subarraySum([0, 0, 0], 0)`, subarraySum([0, 0, 0], 0), 6);
-// console.log(`subarraySum([1, 1, 1], 2)`, subarraySum([1, 1, 1], 2), 2);
-// console.log(`subarraySum([1], 1)`, subarraySum([1], 1), 1);
-// console.log(`subarraySum([1], 0))`, subarraySum([1], 0), 0);
-// console.log(`subarraySum([-1,-1,1]))`, subarraySum([-1, -1, 1], 0), 1);
+
+console.log(`subarraySum([1, 2, 3], 3)`, subarraySum([1, 2, 3], 3), 2);
+console.log(`subarraySum([0, 0, 0], 0)`, subarraySum([0, 0, 0], 0), 6);
+console.log(`subarraySum([1, 1, 1], 2)`, subarraySum([1, 1, 1], 2), 2);
+console.log(`subarraySum([1], 1)`, subarraySum([1], 1), 1);
+console.log(`subarraySum([1], 0))`, subarraySum([1], 0), 0);
+console.log(`subarraySum([-1,-1,1]))`, subarraySum([-1, -1, 1], 0), 1);
 // @lc code=end
