@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/sort-colors/description/
  *
  * @level ⭐⭐
- * @tags Array, Double Pointer
+ * @tags Array, 双路快排, 三路快排
  * @similars
  * @end
  *
@@ -32,64 +32,107 @@
 
 // @lc code=start
 /**
- * 题解思路：双指针（关键：定义好循环不变量，注意结束边界，不重不漏）
- * 三路快排的思想，将数组分成 < pivot | == pivot | > pivot 三个区间
+ * 思路一：双路快排
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var sortColors = function (nums) {
-  const len = nums.length;
-
-  if (len < 2) return;
-
-  let l = 0;
-  let r = len - 1;
-  let i = 0;
-
-  /**
-   * 0: [0, l)
-   * 1: [l, i)
-   * 2: (r, len - 1]
-   */
-  while (i <= r) {
-    if (nums[i] === 0) {
-      swap(nums, l, i);
-      l++;
-      i++;
-    } else if (nums[i] === 1) {
-      i++;
-    } else {
-      swap(nums, i, r);
-      r--;
-    }
-  }
-
   function swap(arr, i, j) {
     const temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
   }
+
+  function partition(arr, l, r) {
+    const rnd = l + Math.floor(Math.random() * (r - l + 1));
+    swap(arr, l, rnd);
+
+    let i = l + 1;
+    let j = r;
+
+    while (true) {
+      while (i <= j && arr[i] < arr[l]) i++;
+      while (i <= j && arr[j] > arr[l]) j--;
+
+      if (i >= j) break;
+
+      swap(arr, i, j);
+      i++;
+      j--;
+    }
+
+    swap(arr, l, j);
+
+    return j;
+  }
+
+  function quickSort(arr, l, r) {
+    if (l >= r) return;
+
+    const p = partition(arr, l, r);
+    quickSort(arr, l, p - 1);
+    quickSort(arr, p + 1, r);
+  }
+
+  quickSort(nums, 0, nums.length - 1);
+
+  return nums;
 };
 
 /**
- * 计数排序（先计数，然后按数量生成排序后的数组）
+ * 思路二：三路快排
  */
 var sortColors = function (nums) {
-  const cache = {};
-
-  for (let i = 0; i < nums.length; i++) {
-    const color = nums[i];
-    cache[color] = (cache[color] || 0) + 1;
+  function swap(arr, i, j) {
+    const temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
   }
 
-  nums.length = 0;
-  const colors = [0, 1, 2];
+  function partition(arr, l, r) {
+    const rnd = l + Math.floor(Math.random() * (r - l + 1));
+    swap(arr, l, rnd);
 
-  for (let i = 0; i < colors.length; i++) {
-    const color = colors[i];
-    for (let j = 0; j < cache[color]; j++) {
-      nums.push(color);
+    /**
+     * 循环不变量：
+     *  - arr[l + 1 , lt   ]  < v
+     *  - arr[lt + 1, i - 1] == v
+     *  - arr[gt    , r    ]  > v
+     *
+     *  终止条件：i === gt
+     */
+    let lt = l;
+    let gt = r + 1;
+    let i = l + 1;
+
+    while (i < gt) {
+      if (arr[i] < arr[l]) {
+        lt++;
+        swap(arr, i, lt);
+        i++;
+      } else if (arr[i] > arr[l]) {
+        gt--;
+        swap(arr, i, gt);
+      } else {
+        i++;
+      }
     }
+
+    swap(arr, l, lt);
+
+    return { lt: lt - 1, gt };
   }
+
+  function quickSort(arr, l, r) {
+    if (l >= r) return;
+
+    const { lt, gt } = partition(arr, l, r);
+    quickSort(arr, l, lt);
+    quickSort(arr, gt, r);
+  }
+
+  quickSort(nums, 0, nums.length - 1);
+
+  return nums;
 };
 // @lc code=end
