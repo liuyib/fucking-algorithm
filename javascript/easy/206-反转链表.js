@@ -7,7 +7,7 @@
  *
  * @level ⭐
  * @tags Linked List, Double Pointer, Recursion
- * @similars
+ * @similars T#234
  * @end
  *
  * 反转一个单链表。
@@ -32,11 +32,13 @@
  */
 
 /**
- * 方法 1：双指针（看的题解。当时不太会双指针如何用在链表中）
+ * 方法 1：双指针
  * @param {ListNode} head
  * @return {ListNode}
  */
 var reverseList = function (head) {
+  if (!head || !head.next) return head;
+
   let prev = null;
   let curr = head;
   let next = null;
@@ -55,9 +57,7 @@ var reverseList = function (head) {
  * 方法 2：递归（看的题解。有点绕，不太好想）
  */
 var reverseList = function (head) {
-  if (!head || !head.next) {
-    return head;
-  }
+  if (!head || !head.next) return head;
 
   const ret = reverseList(head.next);
   head.next.next = head;

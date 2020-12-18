@@ -6,7 +6,8 @@
  * https://leetcode-cn.com/problems/palindrome-linked-list/description/
  *
  * @level ⭐
- * @tags Linked List, Stack, Double Pointer
+ * @tags Linked List, Stack, Double Pointer, 💯
+ * @similars T#206
  * @end
  *
  * 请判断一个链表是否为回文链表。
@@ -34,57 +35,54 @@
  * }
  */
 /**
- * 双指针思路
+ * 方法一：双指针
+ * 把链表前半部分反转，然后遍历“后半部分”和“反转后的前半部分”即可
+ *
  * @param {ListNode} head
  * @return {boolean}
  */
 var isPalindrome = function (head) {
-  let temp = head;
+  if (head == null || head.next == null) return true;
+
   let len = 0;
+  let temp = head;
 
   while (temp) {
     len++;
     temp = temp.next;
   }
 
-  const mid = Math.ceil(len / 2);
-  let front = head;
+  // Math.floor((len - 1) / 2)
+  let mid = (len - 1) >> 1;
+  let prev = null;
+  let curr = head;
+  let next = null;
   let count = 0;
 
-  let prev = null;
-  let curr = null;
-  let next = null;
-
-  while (head) {
-    if (count >= mid) {
-      // 开始反转链表
-      curr = head;
-      next = curr.next;
-      curr.next = prev;
-      prev = curr;
-
-      if (curr === null) break;
-
-      head = next;
-    } else {
-      head = head.next;
-    }
-
+  while (count <= mid) {
+    next = curr.next;
+    curr.next = prev;
+    prev = curr;
+    curr = next;
     count++;
   }
 
-  while (front !== null && prev !== null) {
-    if (prev.val !== front.val) return false;
-
-    front = front.next;
+  if (len % 2 !== 0) {
     prev = prev.next;
+  }
+
+  while (prev && curr) {
+    if (prev.val !== curr.val) return false;
+
+    prev = prev.next;
+    curr = curr.next;
   }
 
   return true;
 };
 
 /**
- * 栈思路
+ * 方法二：栈思路
  */
 var isPalindrome = function (head) {
   const s = [];
