@@ -22,10 +22,10 @@ function partition(arr, left, right) {
 function quickSort(arr, left = 0, right = arr.length - 1) {
   if (left >= right) return;
 
-  const pivot = partition(arr, left, right);
+  const mid = partition(arr, left, right);
 
-  quickSort(arr, left, pivot - 1);
-  quickSort(arr, pivot + 1, right);
+  quickSort(arr, left, mid - 1);
+  quickSort(arr, mid + 1, right);
 }
 
 // **************************************************
