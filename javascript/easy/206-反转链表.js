@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/reverse-linked-list/description/
  *
  * @level ⭐
- * @tags Linked List, Double Pointer, Recursion
+ * @tags Linked List, Double Pointer, Recursion, 💯
  * @similars T#234
  * @end
  *
@@ -37,8 +37,6 @@
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  if (!head || !head.next) return head;
-
   let prev = null;
   let curr = head;
   let next = null;
@@ -54,12 +52,13 @@ var reverseList = function (head) {
 };
 
 /**
- * 方法 2：递归（看的题解。有点绕，不太好想）
+ * 方法 2：递归
  */
 var reverseList = function (head) {
-  if (!head || !head.next) return head;
+  if (head == null || head.next == null) return head;
 
   const ret = reverseList(head.next);
+
   head.next.next = head;
   head.next = null;
 

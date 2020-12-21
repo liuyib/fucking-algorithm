@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/number-of-boomerangs/description/
  *
  * @level ⭐⭐
- * @tags Hash Table, Math
+ * @tags TODO
  * @similars
  * @end
  *
