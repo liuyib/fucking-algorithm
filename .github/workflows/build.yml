@@ -25,7 +25,7 @@ jobs:
           git config --global user.name "${{ secrets.MY_USER_NAME }}"
           git config --global user.email "${{ secrets.MY_USER_EMAIL }}"
           git add -A
-          git commit -m "Generate tabular data & Add changes"
+          git commit -m "ci: update tabular data"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
