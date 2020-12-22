@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/sort-colors/description/
  *
  * @level ⭐⭐
- * @tags Array, 双路快排, 三路快排
+ * @tags Array, 双路快排, 三路快排, 💯
  * @similars
  * @end
  *
