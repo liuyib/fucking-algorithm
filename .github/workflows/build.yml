@@ -1,4 +1,4 @@
-name: 'Build and generate tabular data'
+name: 'Build'
 
 on:
   push:
@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '12.x'
 
+      - run: npm install
       - run: npm run build
 
       - name: Commit files
