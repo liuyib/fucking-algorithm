@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/rotate-image/description/
  *
  * @level ⭐⭐
- * @tags Array, Recursion, Math
+ * @tags Array, Recursion, Math, 💯
  * @similars
  * @end
  *
