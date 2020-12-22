@@ -1,0 +1,32 @@
+name: 'Build and generate tabular data'
+
+on:
+  push:
+    branchs: [master]
+  pull_request:
+    branchs: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js v12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - run: npm run build
+
+      - name: Commit files
+        run: |
+          git config --global user.name "${{ secrets.MY_USER_NAME }}"
+          git config --global user.email "${{ secrets.MY_USER_EMAIL }}"
+          git commit -m "Generate tabular data & Add changes"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          branch: master

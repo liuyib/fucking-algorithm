@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/liuyib/leetcode.git"
   },
-  "keywords": [],
+  "keywords": [
+    "leetcode",
+    "algorithm",
+    "TableGT",
+    "CLI Tool",
+    "Generator"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
