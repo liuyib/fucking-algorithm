@@ -56,8 +56,8 @@
 | 768 | [最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/description/) | ⭐⭐⭐ | [javascript](./javascript/hard/768-最多能完成排序的块-ii.js) | `Stack`, `单调栈` |  |
 | 102 | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/102-二叉树的层序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#94`, `T#145` |
 | 105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js) | `Array`, `Binary Tree`, `Recursion` |  |
-| 109 | [有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/109-有序链表转换二叉搜索树.js) | `Linked List`, `DFS` |  |
 | 1248 | [统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/description/) | ⭐⭐ | [javascript](./javascript/medium/1248-统计「优美子数组」.js) | `TODO` |  |
+| 109 | [有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/109-有序链表转换二叉搜索树.js) | `Linked List`, `DFS` |  |
 | 129 | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/description/) | ⭐⭐ | [javascript](./javascript/medium/129-求根到叶子节点数字之和.js) | `Binary Tree`, `DFS` |  |
 | 138 | [复制带随机指针的链表](https://leetcode-cn.com/problems/root-list-with-random-pointer/description/) | ⭐⭐ | [javascript](./javascript/medium/138-复制带随机指针的链表.js) | `Linked List`, `DFS` |  |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/142-环形链表-ii.js) | `Linked List`, `Double Pointer`, `Hash Table` |  |
@@ -72,8 +72,8 @@
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/) | ⭐⭐ | [javascript](./javascript/medium/24-两两交换链表中的节点.js) | `Linked List` |  |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/) | ⭐⭐ | [javascript](./javascript/medium/3-无重复字符的最长子串.js) | `String`, `Sliding Window`, `Hash Table` |  |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/description/) | ⭐⭐ | [javascript](./javascript/medium/347-前-k-个高频元素.js) | `TODO` |  |
-| 447 | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/) | ⭐⭐ | [javascript](./javascript/medium/447-回旋镖的数量.js) | `TODO` |  |
 | 394 | [字符串解码](https://leetcode-cn.com/problems/decode-string/description/) | ⭐⭐ | [javascript](./javascript/medium/394-字符串解码.js) | `Stack`, `DFS` |  |
+| 447 | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/) | ⭐⭐ | [javascript](./javascript/medium/447-回旋镖的数量.js) | `TODO` |  |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) | ⭐⭐ | [javascript](./javascript/medium/48-旋转图像.js) | `Array`, `Recursion`, `Math` |  |
 | 503 | [下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/503-下一个更大元素-ii.js) | `TODO` |  |
 | 513 | [找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/) | ⭐⭐ | [javascript](./javascript/medium/513-找树左下角的值.js) | `Binary Tree`, `DFS`, `BFS` |  |
@@ -81,12 +81,12 @@
 | 61 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/) | ⭐⭐ | [javascript](./javascript/medium/61-旋转链表.js) | `Linked List`, `Double Pointer` |  |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/description/) | ⭐⭐ | [javascript](./javascript/medium/695-岛屿的最大面积.js) | `DFS`, `Backtracking` |  |
 | 75 | [颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) | ⭐⭐ | [javascript](./javascript/medium/75-颜色分类.js) | `Array`, `双路快排`, `三路快排` |  |
-| 769 | [最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/description/) | ⭐⭐ | [javascript](./javascript/medium/769-最多能完成排序的块.js) | `Stack`, `单调栈` |  |
 | 763 | [划分字母区间](https://leetcode-cn.com/problems/partition-labels/description/) | ⭐⭐ | [javascript](./javascript/medium/763-划分字母区间.js) | `TODO` |  |
+| 769 | [最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/description/) | ⭐⭐ | [javascript](./javascript/medium/769-最多能完成排序的块.js) | `Stack`, `单调栈` |  |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search/description/) | ⭐⭐ | [javascript](./javascript/medium/79-单词搜索.js) | `Array`, `DFS`, `Backtracking` |  |
 | 92 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/92-反转链表-ii.js) | `Linked List`, `Recursion` | `T#206` |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/94-二叉树的中序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#145`, `T#102` |
-| 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/98-验证二叉搜索树.js) | `TODO` |  |
 | 946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/) | ⭐⭐ | [javascript](./javascript/medium/946-验证栈序列.js) | `TODO` |  |
+| 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/98-验证二叉搜索树.js) | `TODO` |  |
 | 987 | [二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/987-二叉树的垂序遍历.js) | `Binary Tree`, `Hash Table` |  |
 <!-- @tb-end -->
