@@ -6,7 +6,7 @@
  * https://leetcode-cn.com/problems/merge-two-sorted-lists/description/
  *
  * @level ⭐
- * @tags Linked List, Double Pointer
+ * @tags Linked List
  * @similars
  * @end
  *
@@ -28,28 +28,50 @@
  * }
  */
 /**
- * 双指针
+ * 方法一：迭代
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
  */
 var mergeTwoLists = function (l1, l2) {
-  let ret = (cur = new ListNode());
+  let dummy = new ListNode();
+  let curr = dummy;
 
-  while (l1 !== null && l2 !== null) {
-    if (l1.val >= l2.val) {
-      cur.next = l2;
+  while (l1 != null && l2 != null) {
+    if (l1.val > l2.val) {
+      curr.next = l2;
       l2 = l2.next;
     } else {
-      cur.next = l1;
+      curr.next = l1;
       l1 = l1.next;
     }
-    cur = cur.next;
+
+    curr = curr.next;
   }
 
-  // 遍历结束后，可能存在一个未遍历完的
-  cur.next = l1 !== null ? l1 : l2;
+  curr.next = l1 == null ? l2 : l1;
 
-  return ret.next;
+  return dummy.next;
+};
+
+/**
+ * 方法二：递归
+ *
+ * 1. 终止条件：两个链表任意一个为空时。
+ * 2. 如何递归：
+ *   2.1. 比较 l1, l2 节点，将较小节点的 next 指向剩余节点的合并结果。
+ *   2.2. 然后返回较小节点即可。
+ */
+var mergeTwoLists = function (l1, l2) {
+  if (l1 == null) return l2;
+  if (l2 == null) return l1;
+
+  if (l1.val > l2.val) {
+    l2.next = mergeTwoLists(l1, l2.next);
+    return l2;
+  } else {
+    l1.next = mergeTwoLists(l1.next, l2);
+    return l1;
+  }
 };
 // @lc code=end
