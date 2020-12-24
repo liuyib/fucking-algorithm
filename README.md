@@ -30,7 +30,7 @@
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | ⭐ | [javascript](./javascript/easy/20-有效的括号.js) | `Stack` |  |
 | 203 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/description/) | ⭐ | [javascript](./javascript/easy/203-移除链表元素.js) | `Linked List`, `Recursion` |  |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) | ⭐ | [javascript](./javascript/easy/206-反转链表.js) | `Linked List`, `Double Pointer`, `Recursion`, `💯` | `T#234` |
-| 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) | ⭐ | [javascript](./javascript/easy/21-合并两个有序链表.js) | `Linked List` |  |
+| 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) | ⭐ | [javascript](./javascript/easy/21-合并两个有序链表.js) | `Linked List` | `T#88` |
 | 228 | [汇总区间](https://leetcode-cn.com/problems/summary-ranges/description/) | ⭐ | [javascript](./javascript/easy/228-汇总区间.js) | `TODO` |  |
 | 234 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/) | ⭐ | [javascript](./javascript/easy/234-回文链表.js) | `Linked List`, `Stack`, `Double Pointer`, `💯` | `T#206` |
 | 237 | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) | ⭐ | [javascript](./javascript/easy/237-删除链表中的节点.js) | `Linked List` |  |
@@ -49,6 +49,7 @@
 | 821 | [字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/) | ⭐ | [javascript](./javascript/easy/821-字符的最短距离.js) | `String`, `Greedy` |  |
 | 859 | [亲密字符串](https://leetcode-cn.com/problems/buddy-strings/description/) | ⭐ | [javascript](./javascript/easy/859-亲密字符串.js) | `String` |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/) | ⭐ | [javascript](./javascript/easy/876-链表的中间结点.js) | `TODO` |  |
+| 88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/) | ⭐ | [javascript](./javascript/easy/88-合并两个有序数组.js) | `Array`, `Double Pointer` | `T#21` |
 | 925 | [长按键入](https://leetcode-cn.com/problems/long-pressed-name/description/) | ⭐ | [javascript](./javascript/easy/925-长按键入.js) | `String`, `Double Pointer` |  |
 | 941 | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/description/) | ⭐ | [javascript](./javascript/easy/941-有效的山脉数组.js) | `Array`, `Double Pointer` |  |
 | 977 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/) | ⭐ | [javascript](./javascript/easy/977-有序数组的平方.js) | `Array`, `Double Pointer` |  |
@@ -85,8 +86,8 @@
 | 769 | [最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/description/) | ⭐⭐ | [javascript](./javascript/medium/769-最多能完成排序的块.js) | `Stack`, `单调栈` |  |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search/description/) | ⭐⭐ | [javascript](./javascript/medium/79-单词搜索.js) | `Array`, `DFS`, `Backtracking` |  |
 | 92 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/92-反转链表-ii.js) | `Linked List`, `Recursion` | `T#206` |
-| 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/94-二叉树的中序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#145`, `T#102` |
 | 946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/) | ⭐⭐ | [javascript](./javascript/medium/946-验证栈序列.js) | `TODO` |  |
+| 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/94-二叉树的中序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#145`, `T#102` |
 | 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/98-验证二叉搜索树.js) | `TODO` |  |
 | 987 | [二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/987-二叉树的垂序遍历.js) | `Binary Tree`, `Hash Table` |  |
 <!-- @tb-end -->
