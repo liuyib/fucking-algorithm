@@ -24,8 +24,8 @@
 | 1207 | [独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/description/) | ⭐ | [javascript](./javascript/easy/1207-独一无二的出现次数.js) | `TODO` |  |
 | 1290 | [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | ⭐ | [javascript](./javascript/easy/1290-二进制链表转整数.js) | `Linked List`, `Stack`, `Recursion` |  |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | ⭐ | [javascript](./javascript/easy/136-只出现一次的数字.js) | `Array`, `Bit Operation` | `T#389` |
-| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/description/) | ⭐ | [javascript](./javascript/easy/1446-连续字符.js) | `Sliding Window`, `多题同解` | `T#485` |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/) | ⭐ | [javascript](./javascript/easy/141-环形链表.js) | `Linked List`, `Double Pointer`, `Hash Table` |  |
+| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/description/) | ⭐ | [javascript](./javascript/easy/1446-连续字符.js) | `Sliding Window`, `多题同解` | `T#485` |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/) | ⭐ | [javascript](./javascript/easy/160-相交链表.js) | `Linked List`, `Double Pointer` |  |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | ⭐ | [javascript](./javascript/easy/20-有效的括号.js) | `Stack` |  |
 | 203 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/description/) | ⭐ | [javascript](./javascript/easy/203-移除链表元素.js) | `Linked List`, `Recursion` |  |
@@ -38,8 +38,8 @@
 | 28 | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/) | ⭐(⭐)(⭐) | [javascript](./javascript/easy/28-实现-str-str.js) | `字符串匹配`, `Rabin-Karp` |  |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes/description/) | ⭐ | [javascript](./javascript/easy/283-移动零.js) | `TODO` |  |
 | 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/description/) | ⭐ | [javascript](./javascript/easy/290-单词规律.js) | `String`, `Hash Table` | `T#205` |
-| 485 | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/) | ⭐ | [javascript](./javascript/easy/485-最大连续-1-的个数.js) | `Sliding Window`, `多题同解` | `T#1446` |
 | 389 | [找不同](https://leetcode-cn.com/problems/find-the-difference/description/) | ⭐ | [javascript](./javascript/easy/389-找不同.js) | `String`, `Hash Table`, `Bit Operation` | `T#136` |
+| 485 | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/) | ⭐ | [javascript](./javascript/easy/485-最大连续-1-的个数.js) | `Sliding Window`, `多题同解` | `T#1446` |
 | 496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/description/) | ⭐ | [javascript](./javascript/easy/496-下一个更大元素-i.js) | `TODO` |  |
 | 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/) | ⭐ | [javascript](./javascript/easy/557-反转字符串中的单词-iii.js) | `TODO` |  |
 | 599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/) | ⭐ | [javascript](./javascript/easy/599-两个列表的最小索引总和.js) | `Array`, `Hash Table` |  |
