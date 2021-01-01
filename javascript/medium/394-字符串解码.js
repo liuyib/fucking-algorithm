@@ -42,8 +42,7 @@
 
 // @lc code=start
 /**
- * 题解思路 1：
- * 用栈来保存子问题的状态
+ * 方法一：用栈手动模拟函数调用栈
  * 1. 迭代保存数字，表示倍数
  * 2. 遇到 [ 证明是子问题，将 "倍数" 和 "当前的子串" 作为子状态入栈
  * 3. 遇到 ] 证明子问题结束，将 "当前子串" 复制 "上个状态的倍数" 次，并与 "上个状态的子串" 相加，此时一个子问题处理完成
@@ -53,17 +52,12 @@
  */
 var decodeString = function (s) {
   const stack = [];
-
-  function isDigit(val) {
-    return val >= '0' && val <= '9';
-  }
-
   let num = 0;
   let res = '';
 
   for (let i = 0; i < s.length; i++) {
-    if (isDigit(s[i])) {
-      num = num * 10 + parseInt(s[i]);
+    if (s[i] >= '0' && s[i] <= '9') {
+      num = num * 10 + parseInt(s[i], 10);
     } else if (s[i] === '[') {
       stack.push({ num, res });
       num = 0;
@@ -80,34 +74,35 @@ var decodeString = function (s) {
 };
 
 /**
- * 题解思路 2：
+ * 方法二：
  * 递归查找，遇到 [ 是递归的开始条件，遇到 ] 是递归的终止条件
  */
 var decodeString = function (s) {
-  const len = s.length;
+  var dfs = (s, index) => {
+    let num = 0;
+    let ans = '';
 
-  var dfs = (i, num, str) => {
-    while (i < len) {
-      if (s[i] >= '0' && s[i] <= '9') {
-        num = num * 10 + parseInt(s[i]);
-      } else if (s[i] === '[') {
-        const sub = dfs(i + 1, 0, '');
-        str += sub.str.repeat(num);
-        i = sub.i;
+    while (index < s.length) {
+      if (s[index] >= '0' && s[index] <= '9') {
+        num = num * 10 + parseInt(s[index], 10);
+      } else if (s[index] === '[') {
+        const sub = dfs(s, index + 1);
+        ans += sub.ans.repeat(num);
+        index = sub.index;
         num = 0;
-      } else if (s[i] === ']') {
-        return { i, str };
+      } else if (s[index] === ']') {
+        return { index, ans };
       } else {
-        str += s[i];
+        ans += s[index];
       }
 
-      i++;
+      index++;
     }
 
-    return str;
+    return ans;
   };
 
-  return dfs(0, 0, '');
+  return dfs(s, 0);
 };
 
 console.log(`decodeString("3[a]2[bc]")`, decodeString('3[a]2[bc]'));
