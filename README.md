@@ -43,6 +43,7 @@
 | 496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/description/) | ⭐ | [javascript](./javascript/easy/496-下一个更大元素-i.js) | `TODO` |  |
 | 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/) | ⭐ | [javascript](./javascript/easy/557-反转字符串中的单词-iii.js) | `TODO` |  |
 | 599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/) | ⭐ | [javascript](./javascript/easy/599-两个列表的最小索引总和.js) | `Array`, `Hash Table` |  |
+| 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/description/) | ⭐ | [javascript](./javascript/easy/605-种花问题.js) | `Array`, `Greedy` |  |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one/description/) | ⭐ | [javascript](./javascript/easy/66-加一.js) | `Array` |  |
 | 67 | [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | ⭐ | [javascript](./javascript/easy/67-二进制求和.js) | `String` |  |
 | 682 | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/description/) | ⭐ | [javascript](./javascript/easy/682-棒球比赛.js) | `TODO` |  |
