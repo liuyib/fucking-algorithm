@@ -42,7 +42,7 @@
  */
 var canPlaceFlowers = function (flowerbed, n) {
   let count = 0;
-  let prev = -1;
+  let prev = 0;
 
   for (let i = 0; i < flowerbed.length; i++) {
     if (flowerbed[i] === 0) {
@@ -51,6 +51,7 @@ var canPlaceFlowers = function (flowerbed, n) {
         count++;
       }
     } else if (prev === 1) {
+      // flowerbed[i] = 0;
       count--;
     }
 
