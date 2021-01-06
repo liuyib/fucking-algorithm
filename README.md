@@ -27,8 +27,8 @@
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/) | ⭐ | [javascript](./javascript/easy/141-环形链表.js) | `Linked List`, `Double Pointer`, `Hash Table` |  |
 | 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/description/) | ⭐ | [javascript](./javascript/easy/1446-连续字符.js) | `Sliding Window`, `多题同解` | `T#485` |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/) | ⭐ | [javascript](./javascript/easy/160-相交链表.js) | `Linked List`, `Double Pointer` |  |
-| 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | ⭐ | [javascript](./javascript/easy/20-有效的括号.js) | `Stack` |  |
 | 203 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/description/) | ⭐ | [javascript](./javascript/easy/203-移除链表元素.js) | `Linked List`, `Recursion` |  |
+| 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | ⭐ | [javascript](./javascript/easy/20-有效的括号.js) | `Stack` |  |
 | 205 | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/) | ⭐ | [javascript](./javascript/easy/205-同构字符串.js) | `String`, `Hash Table` | `T#290` |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) | ⭐ | [javascript](./javascript/easy/206-反转链表.js) | `Linked List`, `Double Pointer`, `Recursion`, `💯` | `T#234` |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) | ⭐ | [javascript](./javascript/easy/21-合并两个有序链表.js) | `Linked List` | `T#88` |
