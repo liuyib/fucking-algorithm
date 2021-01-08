@@ -33,24 +33,24 @@
  */
 var subarraySum = function (nums, k) {
   const data = new Map();
-  let pre = 0;
-  let ans = 0;
+  let sum = 0;
+  let count = 0;
 
-  // 某次计算出的前缀和直接等于 k
+  // 某次计算出的“前缀和”等于 k
   data.set(0, 1);
 
   for (let i = 0; i < nums.length; i++) {
     // 前缀和
-    pre += nums[i];
+    sum += nums[i];
 
-    if (data.has(pre - k)) {
-      ans += data.get(pre - k);
+    if (data.has(sum - k)) {
+      count += data.get(sum - k);
     }
 
-    data.set(pre, (data.get(pre) || 0) + 1);
+    data.set(sum, (data.get(sum) || 0) + 1);
   }
 
-  return ans;
+  return count;
 };
 
 console.log(`subarraySum([1, 2, 3], 3)`, subarraySum([1, 2, 3], 3), 2);
