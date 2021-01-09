@@ -24,8 +24,8 @@
 | 1207 | [独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/description/) | ⭐ | [javascript](./javascript/easy/1207-独一无二的出现次数.js) | `TODO` |  |
 | 1290 | [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | ⭐ | [javascript](./javascript/easy/1290-二进制链表转整数.js) | `Linked List`, `Stack`, `Recursion` |  |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | ⭐ | [javascript](./javascript/easy/136-只出现一次的数字.js) | `Array`, `Bit Operation` | `T#389` |
-| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/description/) | ⭐ | [javascript](./javascript/easy/1446-连续字符.js) | `Sliding Window`, `多题同解` | `T#485` |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/) | ⭐ | [javascript](./javascript/easy/141-环形链表.js) | `Linked List`, `Double Pointer`, `Hash Table` |  |
+| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/description/) | ⭐ | [javascript](./javascript/easy/1446-连续字符.js) | `Sliding Window`, `多题同解` | `T#485` |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/) | ⭐ | [javascript](./javascript/easy/160-相交链表.js) | `Linked List`, `Double Pointer` |  |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | ⭐ | [javascript](./javascript/easy/20-有效的括号.js) | `Stack` |  |
 | 203 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/description/) | ⭐ | [javascript](./javascript/easy/203-移除链表元素.js) | `Linked List`, `Recursion` |  |
@@ -45,8 +45,8 @@
 | 599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/) | ⭐ | [javascript](./javascript/easy/599-两个列表的最小索引总和.js) | `Array`, `Hash Table` |  |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/description/) | ⭐ | [javascript](./javascript/easy/605-种花问题.js) | `Array`, `Greedy` |  |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one/description/) | ⭐ | [javascript](./javascript/easy/66-加一.js) | `Array` |  |
-| 682 | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/description/) | ⭐ | [javascript](./javascript/easy/682-棒球比赛.js) | `TODO` |  |
 | 67 | [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | ⭐ | [javascript](./javascript/easy/67-二进制求和.js) | `String` |  |
+| 682 | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/description/) | ⭐ | [javascript](./javascript/easy/682-棒球比赛.js) | `TODO` |  |
 | 696 | [计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/description/) | ⭐ | [javascript](./javascript/easy/696-计数二进制子串.js) | `String` |  |
 | 804 | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/description/) | ⭐ | [javascript](./javascript/easy/804-唯一摩尔斯密码词.js) | `TODO` |  |
 | 821 | [字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/) | ⭐ | [javascript](./javascript/easy/821-字符的最短距离.js) | `String`, `Greedy` |  |
