@@ -2,9 +2,9 @@ name: 'Build'
 
 on:
   push:
-    branchs: [master]
+    branches: [master]
   pull_request:
-    branchs: [master]
+    branches: [master]
 
 jobs:
   deploy:
@@ -16,6 +16,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
+
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - run: npm install
       - run: npm run build
