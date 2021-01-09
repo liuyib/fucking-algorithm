@@ -39,8 +39,8 @@
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes/description/) | ⭐ | [javascript](./javascript/easy/283-移动零.js) | `TODO` |  |
 | 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/description/) | ⭐ | [javascript](./javascript/easy/290-单词规律.js) | `String`, `Hash Table` | `T#205` |
 | 389 | [找不同](https://leetcode-cn.com/problems/find-the-difference/description/) | ⭐ | [javascript](./javascript/easy/389-找不同.js) | `String`, `Hash Table`, `Bit Operation` | `T#136` |
-| 496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/description/) | ⭐ | [javascript](./javascript/easy/496-下一个更大元素-i.js) | `TODO` |  |
 | 485 | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/) | ⭐ | [javascript](./javascript/easy/485-最大连续-1-的个数.js) | `Sliding Window`, `多题同解` | `T#1446` |
+| 496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/description/) | ⭐ | [javascript](./javascript/easy/496-下一个更大元素-i.js) | `TODO` |  |
 | 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/) | ⭐ | [javascript](./javascript/easy/557-反转字符串中的单词-iii.js) | `TODO` |  |
 | 599 | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/) | ⭐ | [javascript](./javascript/easy/599-两个列表的最小索引总和.js) | `Array`, `Hash Table` |  |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/description/) | ⭐ | [javascript](./javascript/easy/605-种花问题.js) | `Array`, `Greedy` |  |
