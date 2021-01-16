@@ -12,7 +12,7 @@ function partition(arr, left, right) {
    * 循环不变量：
    * arr[left + 1, lt]    < v
    * arr[lt + 1, i - 1]  == v
-   * arr[gt, r]           > v
+   * arr[gt, right]       > v
    *
    * 终止条件：i === gt
    */
