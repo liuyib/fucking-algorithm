@@ -90,7 +90,7 @@
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search/description/) | ⭐⭐ | [javascript](./javascript/medium/79-单词搜索.js) | `Array`, `DFS`, `Backtracking` |  |
 | 92 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/92-反转链表-ii.js) | `Linked List`, `Recursion` | `T#206` |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/94-二叉树的中序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#145`, `T#102` |
-| 946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/) | ⭐⭐ | [javascript](./javascript/medium/946-验证栈序列.js) | `TODO` |  |
+| 946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/) | ⭐⭐ | [javascript](./javascript/medium/946-验证栈序列.js) | `Stack`, `Greedy` |  |
 | 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/98-验证二叉搜索树.js) | `TODO` |  |
 | 987 | [二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/987-二叉树的垂序遍历.js) | `Binary Tree`, `Hash Table` |  |
 <!-- @tb-end -->
