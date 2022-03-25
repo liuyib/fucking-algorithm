@@ -39,11 +39,11 @@
  * @return {boolean}
  */
 var validateStackSequences = function (pushed, popped) {
-  var len = pushed.length;
+  var len = popped.length;
   var stack = [];
   var j = 0;
 
-  for (let i = 0; i < len; i++) {
+  for (var i = 0; i < len; i++) {
     stack.push(pushed[i]);
 
     while (stack[stack.length - 1] === popped[j] && j < len) {
