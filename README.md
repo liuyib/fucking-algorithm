@@ -47,8 +47,8 @@
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one/description/) | ⭐ | [javascript](./javascript/easy/66-加一.js) | `Array` |  |
 | 67 | [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | ⭐ | [javascript](./javascript/easy/67-二进制求和.js) | `String` |  |
 | 682 | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/description/) | ⭐ | [javascript](./javascript/easy/682-棒球比赛.js) | `TODO` |  |
-| 696 | [计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/description/) | ⭐ | [javascript](./javascript/easy/696-计数二进制子串.js) | `String` |  |
 | 804 | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/description/) | ⭐ | [javascript](./javascript/easy/804-唯一摩尔斯密码词.js) | `TODO` |  |
+| 696 | [计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/description/) | ⭐ | [javascript](./javascript/easy/696-计数二进制子串.js) | `String` |  |
 | 821 | [字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/description/) | ⭐ | [javascript](./javascript/easy/821-字符的最短距离.js) | `String`, `Greedy` |  |
 | 859 | [亲密字符串](https://leetcode-cn.com/problems/buddy-strings/description/) | ⭐ | [javascript](./javascript/easy/859-亲密字符串.js) | `String` |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/) | ⭐ | [javascript](./javascript/easy/876-链表的中间结点.js) | `TODO` |  |
@@ -70,9 +70,10 @@
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/145-二叉树的后序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#94`, `T#102` |
 | 150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/description/) | ⭐⭐ | [javascript](./javascript/medium/150-逆波兰表达式求值.js) | `TODO` |  |
 | 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/) | ⭐⭐ | [javascript](./javascript/medium/17-电话号码的字母组合.js) | `DFS`, `Backtracking` |  |
-| 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/description/) | ⭐⭐ | [javascript](./javascript/medium/200-岛屿数量.js) | `DFS`, `BFS` |  |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/description/) | ⭐⭐ | [javascript](./javascript/medium/22-括号生成.js) | `DFS`, `Backtracking` |  |
+| 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/description/) | ⭐⭐ | [javascript](./javascript/medium/200-岛屿数量.js) | `DFS`, `BFS` |  |
 | 228 | [汇总区间](https://leetcode-cn.com/problems/summary-ranges/description/) | ⭐⭐ | [javascript](./javascript/medium/228-汇总区间.js) | `Array`, `Double Pointer` |  |
+| 230 | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/description/) | ⭐⭐ | [javascript](./javascript/medium/230-二叉搜索树中第k小的元素.js) | `二叉树`, `二叉搜索树`, `DFS` |  |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/) | ⭐⭐ | [javascript](./javascript/medium/24-两两交换链表中的节点.js) | `Linked List` |  |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/) | ⭐⭐ | [javascript](./javascript/medium/3-无重复字符的最长子串.js) | `String`, `Sliding Window`, `Hash Table` |  |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/description/) | ⭐⭐ | [javascript](./javascript/medium/347-前-k-个高频元素.js) | `TODO` |  |
