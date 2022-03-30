@@ -51,50 +51,33 @@
  * @return {number}
  */
 var numIslands = function (grid) {
-  if (!grid || !grid.length) return 0;
+  if (!grid || !grid.length) return;
 
-  const row = grid.length;
-  const col = grid[0].length;
-  const cache = new Set();
-  let count = 0;
+  var m = grid.length;
+  var n = grid[0].length;
+  var count = 0;
 
-  for (let i = 0; i < row; i++) {
-    for (let j = 0; j < col; j++) {
+  var dfs = function (i, j) {
+    if (i < 0 || i >= m || j < 0 || j >= n) return;
+    if (grid[i][j] !== '1') return;
+
+    grid[i][j] = 0;
+
+    dfs(i + 1, j);
+    dfs(i - 1, j);
+    dfs(i, j + 1);
+    dfs(i, j - 1);
+  };
+
+  for (var i = 0; i < m; i++) {
+    for (var j = 0; j < n; j++) {
       if (grid[i][j] === '1') {
-        const hasLand = dfs(i, j);
-
-        if (hasLand) count++;
+        dfs(i, j);
+        count++;
       }
     }
   }
 
-  /**
-   * @param {number} i 行索引
-   * @param {number} j 列索引
-   * @returns {boolean} 是否有陆地
-   */
-  function dfs(i, j) {
-    if (i < 0 || i >= row || j < 0 || j >= col) return false;
-    if (cache.has(`${i}-${j}`) || grid[i][j] !== '1') return false;
-
-    cache.add(`${i}-${j}`);
-
-    dfs(i, j + 1);
-    dfs(i, j - 1);
-    dfs(i + 1, j);
-    dfs(i - 1, j);
-
-    return true;
-  }
-
   return count;
 };
-
-// const case1 = [
-//   ["1", "1", "1", "1", "0"],
-//   ["1", "1", "0", "1", "0"],
-//   ["1", "1", "0", "0", "0"],
-//   ["0", "0", "0", "0", "0"],
-// ];
-// console.log(numIslands(case1));
 // @lc code=end
