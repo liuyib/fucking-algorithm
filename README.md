@@ -58,6 +58,7 @@
 | 977 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/) | ⭐ | [javascript](./javascript/easy/977-有序数组的平方.js) | `Array`, `Double Pointer` |  |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/) | ⭐⭐⭐ | [javascript](./javascript/hard/25-k-个一组翻转链表.js) | `TODO` |  |
 | 768 | [最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/description/) | ⭐⭐⭐ | [javascript](./javascript/hard/768-最多能完成排序的块-ii.js) | `Stack`, `单调栈` |  |
+| 84 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/description/) | ⭐⭐⭐ | [javascript](./javascript/hard/84-柱状图中最大的矩形.js) | `Stack`, `单调栈` |  |
 | 102 | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/102-二叉树的层序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#94`, `T#145` |
 | 105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/105-从前序与中序遍历序列构造二叉树.js) | `Array`, `Binary Tree`, `Recursion` |  |
 | 109 | [有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | ⭐⭐ | [javascript](./javascript/medium/109-有序链表转换二叉搜索树.js) | `Linked List`, `DFS` |  |
