@@ -87,10 +87,11 @@
 | 560 | [和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/description/) | ⭐⭐ | [javascript](./javascript/medium/560-和为k的子数组.js) | `Array`, `Hash Table`, `前缀和` |  |
 | 61 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/) | ⭐⭐ | [javascript](./javascript/medium/61-旋转链表.js) | `Linked List`, `Double Pointer` |  |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/description/) | ⭐⭐ | [javascript](./javascript/medium/695-岛屿的最大面积.js) | `DFS`, `Backtracking` |  |
+| 739 | [每日温度](https://leetcode-cn.com/problems/daily-temperatures/description/) | ⭐⭐ | [javascript](./javascript/medium/739-每日温度.js) | `单调栈` | `T#496`, `T#503`, `T#556`, `T#739`, `T#84` |
 | 75 | [颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) | ⭐⭐ | [javascript](./javascript/medium/75-颜色分类.js) | `Array`, `双路快排`, `三路快排`, `💯` |  |
 | 763 | [划分字母区间](https://leetcode-cn.com/problems/partition-labels/description/) | ⭐⭐ | [javascript](./javascript/medium/763-划分字母区间.js) | `TODO` |  |
-| 79 | [单词搜索](https://leetcode-cn.com/problems/word-search/description/) | ⭐⭐ | [javascript](./javascript/medium/79-单词搜索.js) | `Array`, `DFS`, `Backtracking` |  |
 | 769 | [最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/description/) | ⭐⭐ | [javascript](./javascript/medium/769-最多能完成排序的块.js) | `Stack`, `单调栈` |  |
+| 79 | [单词搜索](https://leetcode-cn.com/problems/word-search/description/) | ⭐⭐ | [javascript](./javascript/medium/79-单词搜索.js) | `Array`, `DFS`, `Backtracking` |  |
 | 92 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/92-反转链表-ii.js) | `Linked List`, `Recursion` | `T#206` |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/94-二叉树的中序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#145`, `T#102` |
 | 946 | [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/) | ⭐⭐ | [javascript](./javascript/medium/946-验证栈序列.js) | `Stack`, `Greedy` |  |
