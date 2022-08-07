@@ -40,9 +40,53 @@
  * }
  */
 /**
+ * 思路：先遍历判断是否够 K 个节点，然后通过“反转 M~N 区间的函数”进行 K 个一组反转
+ *
  * @param {ListNode} head
  * @param {number} k
  * @return {ListNode}
  */
-var reverseKGroup = function (head, k) {};
+var reverseKGroup = function (head, k) {
+  if (!head || !head.next || k <= 1) return head;
+
+  const reverseMN = (m, n) => {
+    let prev = null;
+    let curr = m;
+
+    while (prev !== n) {
+      const next = curr.next;
+
+      curr.next = prev;
+      prev = curr;
+      curr = next;
+    }
+
+    return [n, m];
+  };
+
+  const dummyHead = new ListNode(null, head);
+  let prev = dummyHead;
+  let curr = head;
+
+  while (curr) {
+    let tail = curr;
+
+    for (let i = 1; i < k; i++) {
+      tail = tail.next;
+
+      if (!tail) return dummyHead.next;
+    }
+
+    const nextHead = tail.next;
+    const [start, end] = reverseMN(curr, tail);
+
+    prev.next = start;
+    end.next = nextHead;
+
+    prev = curr;
+    curr = curr.next;
+  }
+
+  return dummyHead.next;
+};
 // @lc code=end
