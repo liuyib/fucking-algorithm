@@ -36,8 +36,8 @@
 | 234 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/) | ⭐ | [javascript](./javascript/easy/234-回文链表.js) | `Linked List`, `Stack`, `Double Pointer`, `💯` | `T#206` |
 | 237 | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) | ⭐ | [javascript](./javascript/easy/237-删除链表中的节点.js) | `Linked List` |  |
 | 28 | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/) | ⭐(⭐)(⭐) | [javascript](./javascript/easy/28-实现-str-str.js) | `字符串匹配`, `Rabin-Karp` |  |
-| 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/description/) | ⭐ | [javascript](./javascript/easy/290-单词规律.js) | `String`, `Hash Table` | `T#205` |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes/description/) | ⭐ | [javascript](./javascript/easy/283-移动零.js) | `TODO` |  |
+| 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/description/) | ⭐ | [javascript](./javascript/easy/290-单词规律.js) | `String`, `Hash Table` | `T#205` |
 | 389 | [找不同](https://leetcode-cn.com/problems/find-the-difference/description/) | ⭐ | [javascript](./javascript/easy/389-找不同.js) | `String`, `Hash Table`, `Bit Operation` | `T#136` |
 | 485 | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/) | ⭐ | [javascript](./javascript/easy/485-最大连续-1-的个数.js) | `Sliding Window`, `多题同解` | `T#1446` |
 | 496 | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/description/) | ⭐ | [javascript](./javascript/easy/496-下一个更大元素-i.js) | `TODO` |  |
