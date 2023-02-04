@@ -19,8 +19,8 @@
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | 1 | [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | ⭐ | [javascript](./javascript/easy/1-两数之和.js) | `Hash Table` | `T#15` |
 | 100 | [相同的树](https://leetcode-cn.com/problems/same-tree/description/) | ⭐ | [javascript](./javascript/easy/100-相同的树.js) | `Binary Tree`, `DFS` |  |
-| 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) | ⭐ | [javascript](./javascript/easy/104-二叉树的最大深度.js) | `Binary Tree`, `DFS` |  |
 | 108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/) | ⭐ | [javascript](./javascript/easy/108-将有序数组转换为二叉搜索树.js) | `Array`, `BST`, `DFS` |  |
+| 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) | ⭐ | [javascript](./javascript/easy/104-二叉树的最大深度.js) | `Binary Tree`, `DFS` |  |
 | 1207 | [独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/description/) | ⭐ | [javascript](./javascript/easy/1207-独一无二的出现次数.js) | `TODO` |  |
 | 1290 | [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | ⭐ | [javascript](./javascript/easy/1290-二进制链表转整数.js) | `Linked List`, `Stack`, `Recursion` |  |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | ⭐ | [javascript](./javascript/easy/136-只出现一次的数字.js) | `Array`, `Bit Operation` | `T#389` |
@@ -68,11 +68,11 @@
 | 129 | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/description/) | ⭐⭐ | [javascript](./javascript/medium/129-求根到叶子节点数字之和.js) | `Binary Tree`, `DFS` |  |
 | 138 | [复制带随机指针的链表](https://leetcode-cn.com/problems/root-list-with-random-pointer/description/) | ⭐⭐ | [javascript](./javascript/medium/138-复制带随机指针的链表.js) | `Linked List`, `DFS` |  |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/description/) | ⭐⭐ | [javascript](./javascript/medium/142-环形链表-ii.js) | `Linked List`, `Double Pointer`, `Hash Table` |  |
-| 143 | [重排链表](https://leetcode-cn.com/problems/reorder-list/description/) | ⭐⭐ | [javascript](./javascript/medium/143-重排链表.js) | `Linked List`, `Double Pointer`, `Recursion` |  |
 | 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/144-二叉树的前序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#94`, `T#145`, `T#102` |
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/) | ⭐⭐ | [javascript](./javascript/medium/145-二叉树的后序遍历.js) | `Binary Tree`, `树的遍历系列` | `T#144`, `T#94`, `T#102` |
 | 150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/description/) | ⭐⭐ | [javascript](./javascript/medium/150-逆波兰表达式求值.js) | `TODO` |  |
 | 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/) | ⭐⭐ | [javascript](./javascript/medium/17-电话号码的字母组合.js) | `DFS`, `Backtracking` |  |
+| 143 | [重排链表](https://leetcode-cn.com/problems/reorder-list/description/) | ⭐⭐ | [javascript](./javascript/medium/143-重排链表.js) | `Linked List`, `Double Pointer`, `Recursion` |  |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/description/) | ⭐⭐ | [javascript](./javascript/medium/200-岛屿数量.js) | `DFS`, `BFS` |  |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/description/) | ⭐⭐ | [javascript](./javascript/medium/22-括号生成.js) | `DFS`, `Backtracking` |  |
 | 228 | [汇总区间](https://leetcode-cn.com/problems/summary-ranges/description/) | ⭐⭐ | [javascript](./javascript/medium/228-汇总区间.js) | `Array`, `Double Pointer` |  |
