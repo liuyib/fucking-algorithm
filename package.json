@@ -7,6 +7,9 @@
     "style": "prettier --write **/*.js",
     "build": "node index.js"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuyib/leetcode.git"
@@ -15,7 +18,7 @@
     "leetcode",
     "algorithm"
   ],
-  "author": "",
+  "author": "liuyib<https://github.com/liuyib>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/liuyib/leetcode/issues"
