@@ -6,16 +6,17 @@ const UnionFind2 = require('../UnionFind2');
 const UnionFind3 = require('../UnionFind3-size优化');
 const UnionFind4 = require('../UnionFind4-rank优化');
 const UnionFind5 = require('../UnionFind5-路径压缩1');
+const UnionFind6 = require('../UnionFind6-路径压缩2');
 
-const uf = new UnionFind5(10);
+const uf = new UnionFind6(10);
 
-test('测试 UnionFind5.js - getSize, find, isConnected 方法', () => {
+test('测试 UnionFind6.js - getSize, find, isConnected 方法', () => {
   assert.strictEqual(uf.getSize(), 10);
   assert.strictEqual(uf.find(3), 3);
   assert.strictEqual(uf.isConnected(0, 1), false);
 });
 
-test('测试 UnionFind5.js - union 方法', () => {
+test('测试 UnionFind6.js - union 方法', () => {
   uf.union(1, 3);
   uf.union(3, 4);
 
@@ -52,6 +53,7 @@ const uf2 = new UnionFind2(size);
 const uf3 = new UnionFind3(size);
 const uf4 = new UnionFind4(size);
 const uf5 = new UnionFind5(size);
+const uf6 = new UnionFind6(size);
 
 // test('UnionFind1.js - 基准测试（Benchmark）', () => {
 //   testUnionFind(uf1, count);
@@ -67,4 +69,7 @@ test('UnionFind4.js - 基准测试（Benchmark）', () => {
 });
 test('UnionFind5.js - 基准测试（Benchmark）', () => {
   testUnionFind(uf5, count);
+});
+test('UnionFind6.js - 基准测试（Benchmark）', () => {
+  testUnionFind(uf6, count);
 });

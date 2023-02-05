@@ -39,7 +39,7 @@ class UnionFind4 {
 
   find = (p) => {
     if (p < 0 || p >= this.parent.length) {
-      throw new Error('ERR [UnionFind3]: find 方法的参数不合法');
+      throw new Error('ERR [UnionFind4]: find 方法的参数不合法');
     }
 
     // 一直向上找到树的根节点，直到找到自身

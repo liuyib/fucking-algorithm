@@ -1,5 +1,5 @@
 /**
- * 第五版的并查集（使用数组实现），使用路径压缩优化
+ * 第六版的并查集（使用数组实现），使用路径压缩优化
  *
  * 如下图所示：
  *  ╭─╮
@@ -22,22 +22,18 @@
  * ╭─┴─╮
  * │ 5 │
  * ╰───╯
- * 在 `find` 的过程中执行压缩处理：`parent[i] = parent[parent[i]]`。结果如下：
+ * 将所有节点平铺指向根节点，结果如下：
  *  ╭─╮
  * ╭↓─┴╮
  * │ 1 │
  * ╰───╯
- *   ↑  ↖
- * ╭─┴─╮ ╭───╮
- * │ 2 │ │ 3 │
- * ╰───╯ ╰───╯
- *         ↑  ↖
- *       ╭─┴─╮ ╭───╮
- *       │ 4 │ │ 5 │
- *       ╰───╯ ╰───╯
+ *   ↑  ↖     ↖     ↖
+ * ╭─┴─╮ ╭───╮ ╭───╮ ╭───╮
+ * │ 2 │ │ 3 │ │ 4 │ │ 5 │
+ * ╰───╯ ╰───╯ ╰───╯ ╰───╯
  */
 
-class UnionFind5 {
+class UnionFind6 {
   parent = [];
   rank = [];
 
@@ -59,16 +55,17 @@ class UnionFind5 {
 
   find = (p) => {
     if (p < 0 || p >= this.parent.length) {
-      throw new Error('ERR [UnionFind5]: find 方法的参数不合法');
+      throw new Error('ERR [UnionFind6]: find 方法的参数不合法');
     }
 
-    // 一直向上找到树的根节点，直到找到自身
-    while (p !== this.parent[p]) {
-      this.parent[p] = this.parent[this.parent[p]];
-      p = this.parent[p];
+    const parent = this.parent[p];
+
+    // 将所有节点平铺指向根节点
+    if (p !== parent) {
+      this.parent[p] = this.find(parent);
     }
 
-    return p;
+    return this.parent[p];
   };
 
   isConnected = (key1, key2) => {
@@ -94,4 +91,4 @@ class UnionFind5 {
   };
 }
 
-module.exports = UnionFind5;
+module.exports = UnionFind6;
