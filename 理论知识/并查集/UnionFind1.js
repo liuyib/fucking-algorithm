@@ -36,8 +36,8 @@ class UnionFind1 {
   };
 
   union = (key1, key2) => {
-    const value1 = this.id[key1];
-    const value2 = this.id[key2];
+    const value1 = this.find(key1);
+    const value2 = this.find(key2);
 
     if (value1 === value2) return;
 
