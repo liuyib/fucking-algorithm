@@ -19,31 +19,35 @@ class UnionFind1 {
     }
   }
 
-  size = () => {
+  toString = () => {
+    return this.id.join(', ');
+  };
+
+  getSize = () => {
     return this.id.length;
   };
 
-  find = (key) => {
-    if (key < 0 || key >= this.id.length) {
+  find = (p) => {
+    if (p < 0 || p >= this.id.length) {
       throw new Error('ERR [UnionFind1]: find 方法的参数不合法');
     }
 
-    return this.id[key];
+    return this.id[p];
   };
 
-  isConnected = (key1, key2) => {
-    return this.find(key1) === this.find(key2);
+  isConnected = (p1, p2) => {
+    return this.find(p1) === this.find(p2);
   };
 
-  union = (key1, key2) => {
-    const value1 = this.find(key1);
-    const value2 = this.find(key2);
+  union = (p1, p2) => {
+    const root1 = this.find(p1);
+    const root2 = this.find(p2);
 
-    if (value1 === value2) return;
+    if (root1 === root2) return;
 
     for (let i = 0; i < this.id.length; i++) {
-      if (i === key2) {
-        this.id[key2] = value1;
+      if (i === p2) {
+        this.id[p2] = root1;
       }
     }
   };

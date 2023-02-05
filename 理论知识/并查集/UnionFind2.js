@@ -85,36 +85,38 @@ class UnionFind2 {
     }
   }
 
-  size = () => {
+  toString = () => {
+    return this.parent.join(', ');
+  };
+
+  getSize = () => {
     return this.parent.length;
   };
 
-  find = (key) => {
-    if (key < 0 || key >= this.parent.length) {
-      throw new Error('ERR [UnionFind2]: find 方法的参数不合法');
+  find = (p) => {
+    if (p < 0 || p >= this.parent.length) {
+      throw new Error('ERR [UnionFind3]: find 方法的参数不合法');
     }
 
-    let value = this.parent[key];
-
-    // 一直向上找到树的根节点
-    while (value !== this.parent[value]) {
-      value = this.parent[value];
+    // 一直向上找到树的根节点，直到找到自身
+    while (p !== this.parent[p]) {
+      p = this.parent[p];
     }
 
-    return value;
+    return p;
   };
 
-  isConnected = (key1, key2) => {
-    return this.find(key1) === this.find(key2);
+  isConnected = (p1, p2) => {
+    return this.find(p1) === this.find(p2);
   };
 
-  union = (key1, key2) => {
-    const value1 = this.find(key1);
-    const value2 = this.find(key2);
+  union = (p1, p2) => {
+    const root1 = this.find(p1);
+    const root2 = this.find(p2);
 
-    if (value1 === value2) return;
+    if (root1 === root2) return;
 
-    this.parent[key2] = value1;
+    this.parent[p2] = root1;
   };
 }
 
