@@ -5,7 +5,7 @@ const UnionFind1 = require('../UnionFind1');
 const UnionFind2 = require('../UnionFind2');
 const UnionFind3 = require('../UnionFind3-size优化');
 const UnionFind4 = require('../UnionFind4-rank优化');
-const UnionFind5 = require('../UnionFind5-路径压缩');
+const UnionFind5 = require('../UnionFind5-路径压缩1');
 
 const uf = new UnionFind5(10);
 
