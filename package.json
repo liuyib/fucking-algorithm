@@ -1,11 +1,10 @@
 {
-  "name": "leetcode",
+  "name": "fucking-algorithm",
   "version": "0.0.1",
-  "description": "leetcode",
+  "description": "fucking-algorithm",
   "main": "index.js",
   "scripts": {
-    "style": "prettier --write **/*.js",
-    "build": "node index.js"
+    "style": "prettier --write **/*.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -15,8 +14,8 @@
     "url": "git+https://github.com/liuyib/leetcode.git"
   },
   "keywords": [
-    "leetcode",
-    "algorithm"
+    "algorithm",
+    "leetcode"
   ],
   "author": "liuyib<https://github.com/liuyib>",
   "license": "MIT",
@@ -24,9 +23,6 @@
     "url": "https://github.com/liuyib/leetcode/issues"
   },
   "homepage": "https://github.com/liuyib/leetcode",
-  "dependencies": {
-    "tablegt": "^0.6.1"
-  },
   "devDependencies": {
     "prettier": "^2.2.1"
   }
