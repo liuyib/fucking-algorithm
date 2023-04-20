@@ -19,18 +19,18 @@ function find(node) {
 }
 
 function union(node1, node2) {
-  const xRoot = find(node1);
-  const yRoot = find(node2);
+  const root1 = find(node1);
+  const root2 = find(node2);
 
-  if (xRoot === yRoot) return;
+  if (root1 === root2) return;
 
-  if (xRoot.rank < yRoot.rank) {
-    xRoot.parent = yRoot;
+  if (root1.rank < root2.rank) {
+    root1.parent = root2;
   } else {
-    yRoot.parent = xRoot;
+    root2.parent = root1;
 
-    if (yRoot.rank < xRoot.rank) {
-      xRoot.rank++;
+    if (root2.rank < root1.rank) {
+      root1.rank++;
     }
   }
 }
