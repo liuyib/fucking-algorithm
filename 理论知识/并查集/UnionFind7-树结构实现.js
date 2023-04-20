@@ -10,12 +10,12 @@ function create(value) {
   };
 }
 
-function find(node1) {
-  if (node1.parent === null) return node1;
+function find(node) {
+  if (node.parent === null) return node;
 
-  node1.parent = find(node1.parent);
+  node.parent = find(node.parent);
 
-  return node1.parent;
+  return node.parent;
 }
 
 function union(node1, node2) {
