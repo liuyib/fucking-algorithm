@@ -10,17 +10,17 @@ function create(value) {
   };
 }
 
-function find(x) {
-  if (x.parent === null) return x;
+function find(node1) {
+  if (node1.parent === null) return node1;
 
-  x.parent = find(x.parent);
+  node1.parent = find(node1.parent);
 
-  return x.parent;
+  return node1.parent;
 }
 
-function union(x, y) {
-  const xRoot = find(x);
-  const yRoot = find(y);
+function union(node1, node2) {
+  const xRoot = find(node1);
+  const yRoot = find(node2);
 
   if (xRoot === yRoot) return;
 
@@ -35,8 +35,8 @@ function union(x, y) {
   }
 }
 
-function isConnected(x, y) {
-  return find(x) === find(y);
+function isConnected(node1, node2) {
+  return find(node1) === find(node2);
 }
 
 module.exports = {
