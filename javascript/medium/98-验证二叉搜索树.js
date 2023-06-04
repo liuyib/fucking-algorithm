@@ -56,5 +56,21 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function (root) {};
+var isValidBST = function (root) {
+  const values = [];
+  let valid = true;
+
+  const traverse = function (node) {
+    if (!node) return;
+
+    traverse(node.left);
+    values.push(node.val);
+    if (values[values.length - 1] <= values[values.length - 2]) valid = false;
+    traverse(node.right);
+  };
+
+  traverse(root);
+
+  return valid;
+};
 // @lc code=end
