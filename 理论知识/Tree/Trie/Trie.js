@@ -17,11 +17,12 @@ class Trie {
     this.size = 0;
   }
 
+  /** 获取包含的单词数量 */
   getSize() {
     return this.size;
   }
 
-  // 添加一个单词
+  /** 添加一个单词 */
   add(word) {
     let node = this.root;
 
@@ -38,6 +39,7 @@ class Trie {
     }
   }
 
+  /** 是否包含某个单词 */
   has(word) {
     let node = this.root;
 
@@ -48,6 +50,19 @@ class Trie {
     }
 
     return node.isWord;
+  }
+
+  /** 是否有某个单词的前缀（单词本身也是自己的前缀） */
+  hasPrefix(word) {
+    let node = this.root;
+
+    for (let i = 0; i < word.length; i++) {
+      const c = word[i];
+      if (!node.next.has(c)) return false;
+      node = node.next.get(c);
+    }
+
+    return true;
   }
 }
 
