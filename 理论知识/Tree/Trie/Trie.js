@@ -53,11 +53,11 @@ class Trie {
   }
 
   /** 是否有某个单词的前缀（单词本身也是自己的前缀） */
-  hasPrefix(word) {
+  hasPrefix(prefix) {
     let node = this.root;
 
-    for (let i = 0; i < word.length; i++) {
-      const c = word[i];
+    for (let i = 0; i < prefix.length; i++) {
+      const c = prefix[i];
       if (!node.next.has(c)) return false;
       node = node.next.get(c);
     }
